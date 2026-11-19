@@ -1,0 +1,6798 @@
+[
+  {
+    "id": "create_documents__kosher__approval_content",
+    "type": "checkbox",
+    "label": "תוכן האישור",
+    "when": {
+      "featuresAny": [
+        "create_documents__kosher_certificate",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__kosher__approval_validity",
+    "type": "checkbox",
+    "label": "תוקף האישור",
+    "when": {
+      "featuresAny": [
+        "create_documents__kosher_certificate",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__kosher__save",
+    "type": "checkbox",
+    "label": "שמירה",
+    "when": {
+      "featuresAny": [
+        "create_documents__kosher_certificate",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__kosher__download",
+    "type": "checkbox",
+    "label": "הורדה",
+    "when": {
+      "featuresAny": [
+        "create_documents__kosher_certificate",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__kosher__exceptions_frame",
+    "type": "checkbox",
+    "label": "הוספת מסגרת החרגות",
+    "when": {
+      "featuresAny": [
+        "create_documents__kosher_certificate",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__inspection__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "create_documents__inspection_reports",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__inspection__report_content",
+    "type": "checkbox",
+    "label": "תוכן הדוח",
+    "when": {
+      "featuresAny": [
+        "create_documents__inspection_reports",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__inspection__approval_validity",
+    "type": "checkbox",
+    "label": "תוקף האישור",
+    "when": {
+      "featuresAny": [
+        "create_documents__inspection_reports",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__inspection__add_image",
+    "type": "checkbox",
+    "label": "הוספת תמונה",
+    "when": {
+      "featuresAny": [
+        "create_documents__inspection_reports",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__inspection__exceptions_frame",
+    "type": "checkbox",
+    "label": "הוספת מסגרת החרגות",
+    "when": {
+      "featuresAny": [
+        "create_documents__inspection_reports",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__inspection__image",
+    "type": "checkbox",
+    "label": "תמונה",
+    "when": {
+      "featuresAny": [
+        "create_documents__inspection_reports",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__inspection__mechanical_inspection",
+    "type": "checkbox",
+    "label": "נבדק מכני",
+    "when": {
+      "featuresAny": [
+        "create_documents__inspection_reports",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__inspection__rabbi_stamp",
+    "type": "checkbox",
+    "label": "חותמת רב",
+    "when": {
+      "featuresAny": [
+        "create_documents__inspection_reports",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__inspection__save",
+    "type": "checkbox",
+    "label": "שמירה",
+    "when": {
+      "featuresAny": [
+        "create_documents__inspection_reports",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__inspection__download",
+    "type": "checkbox",
+    "label": "הורדה",
+    "when": {
+      "featuresAny": [
+        "create_documents__inspection_reports",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__operating__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "create_documents__operating_instructions",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__operating__instructions_content",
+    "type": "checkbox",
+    "label": "תוכן הוראות הפעלה",
+    "when": {
+      "featuresAny": [
+        "create_documents__operating_instructions",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__operating__approval_validity",
+    "type": "checkbox",
+    "label": "תוקף האישור",
+    "when": {
+      "featuresAny": [
+        "create_documents__operating_instructions",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__operating__add_image",
+    "type": "checkbox",
+    "label": "הוספת תמונה",
+    "when": {
+      "featuresAny": [
+        "create_documents__operating_instructions",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__operating__exceptions_frame",
+    "type": "checkbox",
+    "label": "הוספת מסגרת החרגות",
+    "when": {
+      "featuresAny": [
+        "create_documents__operating_instructions",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__operating__image",
+    "type": "checkbox",
+    "label": "תמונה",
+    "when": {
+      "featuresAny": [
+        "create_documents__operating_instructions",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__operating__mechanical_inspection",
+    "type": "checkbox",
+    "label": "נבדק מכני",
+    "when": {
+      "featuresAny": [
+        "create_documents__operating_instructions",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__operating__rabbi_stamp",
+    "type": "checkbox",
+    "label": "חותמת הרב",
+    "when": {
+      "featuresAny": [
+        "create_documents__operating_instructions",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__operating__save",
+    "type": "checkbox",
+    "label": "שמירה",
+    "when": {
+      "featuresAny": [
+        "create_documents__operating_instructions",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "create_documents__operating__download",
+    "type": "checkbox",
+    "label": "הורדה",
+    "when": {
+      "featuresAny": [
+        "create_documents__operating_instructions",
+        "dashboard__create_documents"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__working_today",
+    "type": "checkbox",
+    "label": "עובדת היום",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__not_working_today",
+    "type": "checkbox",
+    "label": "לא עובדת היום",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__from_home",
+    "type": "checkbox",
+    "label": "מהבית",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__in_field",
+    "type": "checkbox",
+    "label": "בשטח",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__outside",
+    "type": "checkbox",
+    "label": "בחוץ",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__other",
+    "type": "checkbox",
+    "label": "אחר",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__select_client",
+    "type": "checkbox",
+    "label": "בחירת לקוח",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__select_project",
+    "type": "checkbox",
+    "label": "בחירת פרויקט",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__hourly",
+    "type": "checkbox",
+    "label": "שעתי",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__global",
+    "type": "checkbox",
+    "label": "גלובלי",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__hourly_rate",
+    "type": "checkbox",
+    "label": "תעריף לשעה",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__select_employee",
+    "type": "checkbox",
+    "label": "בחירת עובדת",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__fill_task",
+    "type": "checkbox",
+    "label": "מילוי המשימה",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__clock__check_in",
+    "type": "checkbox",
+    "label": "סימון כניסה",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__clock",
+        "dashboard__attendance_clock_entry",
+        "finance__attendance_clock",
+        "institutions_cluster__attendance_clock",
+        "suppliers_cluster__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__monthly__auto_email_receipt",
+    "type": "checkbox",
+    "label": "קבלה אוטומטית במייל",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__my_monthly_reports"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__monthly__reports_view",
+    "type": "checkbox",
+    "label": "תצוגת הדוחות החודשיים",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__my_monthly_reports"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__vacation__requests_view",
+    "type": "checkbox",
+    "label": "תצוגת בקשות חופש",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__vacation_request"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__vacation_add__vacation_date",
+    "type": "checkbox",
+    "label": "תאריך חופש",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__add_vacation_request"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__vacation_add__reason",
+    "type": "checkbox",
+    "label": "סיבה",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__add_vacation_request"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__vacation_add__submit_request",
+    "type": "checkbox",
+    "label": "שלחי בקשה",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__add_vacation_request"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__vacation_add__cancel",
+    "type": "checkbox",
+    "label": "ביטול",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__add_vacation_request"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__vop__add_process_row",
+    "type": "checkbox",
+    "label": "הוספת שורה לתהליך",
+    "when": {
+      "featuresAny": [
+        "dashboard__venture_opening_process"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__vop__projects",
+    "type": "checkbox",
+    "label": "פרויקטים",
+    "when": {
+      "featuresAny": [
+        "dashboard__venture_opening_process"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__vop__gantt",
+    "type": "checkbox",
+    "label": "גאנט",
+    "when": {
+      "featuresAny": [
+        "dashboard__venture_opening_process"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__vop__marketing_materials",
+    "type": "checkbox",
+    "label": "חומרי השיווק",
+    "when": {
+      "featuresAny": [
+        "dashboard__venture_opening_process"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__vop__media",
+    "type": "checkbox",
+    "label": "המדיה",
+    "when": {
+      "featuresAny": [
+        "dashboard__venture_opening_process"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__vop__course_materials_kits",
+    "type": "checkbox",
+    "label": "ערכות חומרי הקורס",
+    "when": {
+      "featuresAny": [
+        "dashboard__venture_opening_process"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__vop__sales",
+    "type": "checkbox",
+    "label": "מכירות",
+    "when": {
+      "featuresAny": [
+        "dashboard__venture_opening_process"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__vop__posts",
+    "type": "checkbox",
+    "label": "הפוסטים",
+    "when": {
+      "featuresAny": [
+        "dashboard__venture_opening_process"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__vop__finance",
+    "type": "checkbox",
+    "label": "פיננסים",
+    "when": {
+      "featuresAny": [
+        "dashboard__venture_opening_process"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__vop__reset_default_list",
+    "type": "checkbox",
+    "label": "איפוס לרשימת ברירת מחדל",
+    "when": {
+      "featuresAny": [
+        "dashboard__venture_opening_process"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__venture_project_name",
+    "type": "checkbox",
+    "label": "שם המיזם / שם הפרויקט",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__description",
+    "type": "checkbox",
+    "label": "תיאור",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__extended_description_card",
+    "type": "checkbox",
+    "label": "תיאור מורחב (כרטיס)",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__start_date",
+    "type": "checkbox",
+    "label": "תאריך התחלת הפרויקט",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__end_date",
+    "type": "checkbox",
+    "label": "תאריך סיום הפרויקט",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__preparation_start_date",
+    "type": "checkbox",
+    "label": "תאריך התחלת היערכות",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__sessions_count",
+    "type": "checkbox",
+    "label": "מספר מפגשים",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__project_type",
+    "type": "checkbox",
+    "label": "סוג פרויקט",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__target_audience",
+    "type": "checkbox",
+    "label": "קהל יעד",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__instructor",
+    "type": "checkbox",
+    "label": "מנחה",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__assistant",
+    "type": "checkbox",
+    "label": "אסיסטנטית",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__guest_instructors",
+    "type": "checkbox",
+    "label": "מנחה אורחים",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__suppliers_extra_team",
+    "type": "checkbox",
+    "label": "ספקים / צוות נוסף",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__cost",
+    "type": "checkbox",
+    "label": "עלות",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__discounts",
+    "type": "checkbox",
+    "label": "הנחות",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__scholarships",
+    "type": "checkbox",
+    "label": "מלגות",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__payment_method",
+    "type": "checkbox",
+    "label": "אופן תשלום",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__counted_as_project_expense",
+    "type": "checkbox",
+    "label": "מחושב כהוצאה של הפרויקט (נכנס לדוח פיננסי כעלות ישירה)",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__location",
+    "type": "checkbox",
+    "label": "מיקום",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__status",
+    "type": "checkbox",
+    "label": "סטטוס",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__priority",
+    "type": "checkbox",
+    "label": "תיעדוף",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__documents_upload_status",
+    "type": "checkbox",
+    "label": "סטטוס העלאת מסמכים",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__on_agenda_when",
+    "type": "checkbox",
+    "label": "מתי הפרויקט על הפרק",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__target_date",
+    "type": "checkbox",
+    "label": "תאריך יעד",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__notes",
+    "type": "checkbox",
+    "label": "הערות",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__venture_clients",
+    "type": "checkbox",
+    "label": "לקוחות למיזם",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__add_files",
+    "type": "checkbox",
+    "label": "הוספת קבצים",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__venture_dispatch",
+    "type": "checkbox",
+    "label": "שליחות המיזם",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__group_type",
+    "type": "checkbox",
+    "label": "סוג קבוצה",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__zoom_series_dates",
+    "type": "checkbox",
+    "label": "תאריכי סדרת זום",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__participants_range_from",
+    "type": "checkbox",
+    "label": "טווח המשתתפות מ-",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__participants_range_to",
+    "type": "checkbox",
+    "label": "טווח המשתתפות עד-",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__budget",
+    "type": "checkbox",
+    "label": "תקציב",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__pricing",
+    "type": "checkbox",
+    "label": "תמחור",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__paid",
+    "type": "checkbox",
+    "label": "בתשלום",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__registration_required",
+    "type": "checkbox",
+    "label": "חובת רישום",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__whatsapp_group_needed",
+    "type": "checkbox",
+    "label": "יש צורך בקבוצת וואטסאפ",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__participant_bonus",
+    "type": "checkbox",
+    "label": "הבונוס למשתתפות",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__activity",
+    "type": "checkbox",
+    "label": "פעילות",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__content",
+    "type": "checkbox",
+    "label": "התכנים",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__workshop_type",
+    "type": "checkbox",
+    "label": "סדנה ראשונה / סדנת המשך",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__office_notes",
+    "type": "checkbox",
+    "label": "הערות מהמשרד",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__manager_notes",
+    "type": "checkbox",
+    "label": "הערות למנהלת",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__cancel",
+    "type": "checkbox",
+    "label": "ביטול",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__send_whatsapp",
+    "type": "checkbox",
+    "label": "שליחה בוואטסאפ",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__send_email",
+    "type": "checkbox",
+    "label": "שליחה במייל",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cp__create_project_btn",
+    "type": "checkbox",
+    "label": "יצירת מיזם / פרויקט",
+    "when": {
+      "featuresAny": [
+        "dashboard__create_project",
+        "projects__add_new_project"
+      ]
+    }
+  },
+  {
+    "id": "gantt__flow_chart",
+    "type": "checkbox",
+    "label": "תרשים זרימה (גאנט כללי)",
+    "when": {
+      "featuresAny": [
+        "marketing_materials_gantt__flow_chart",
+        "dashboard__open_gantt"
+      ]
+    }
+  },
+  {
+    "id": "gantt__project_specific",
+    "type": "checkbox",
+    "label": "גאנט לפרויקט ספציפי",
+    "when": {
+      "featuresAny": [
+        "marketing_materials_gantt__project_specific_gantt",
+        "dashboard__open_gantt"
+      ]
+    }
+  },
+  {
+    "id": "gantt__archive_name",
+    "type": "checkbox",
+    "label": "שם הגאנט",
+    "when": {
+      "featuresAny": [
+        "marketing_materials_gantt__gantt_archive",
+        "dashboard__gantt_archive"
+      ]
+    }
+  },
+  {
+    "id": "gantt__archive_date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "marketing_materials_gantt__gantt_archive",
+        "dashboard__gantt_archive"
+      ]
+    }
+  },
+  {
+    "id": "gantt__archive_flow_chart",
+    "type": "checkbox",
+    "label": "תרשים זרימה",
+    "when": {
+      "featuresAny": [
+        "marketing_materials_gantt__gantt_archive",
+        "dashboard__gantt_archive"
+      ]
+    }
+  },
+  {
+    "id": "gantt__archive_google_calendar_sync",
+    "type": "checkbox",
+    "label": "סנכרון ליומן גוגל",
+    "when": {
+      "featuresAny": [
+        "marketing_materials_gantt__gantt_archive",
+        "dashboard__gantt_archive"
+      ]
+    }
+  },
+  {
+    "id": "gantt__archive_delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "marketing_materials_gantt__gantt_archive",
+        "dashboard__gantt_archive"
+      ]
+    }
+  },
+  {
+    "id": "gantt__archive_edit",
+    "type": "checkbox",
+    "label": "עריכה",
+    "when": {
+      "featuresAny": [
+        "marketing_materials_gantt__gantt_archive",
+        "dashboard__gantt_archive"
+      ]
+    }
+  },
+  {
+    "id": "gantt__archive_close",
+    "type": "checkbox",
+    "label": "סגור",
+    "when": {
+      "featuresAny": [
+        "marketing_materials_gantt__gantt_archive",
+        "dashboard__gantt_archive"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__rv__start_recording",
+    "type": "checkbox",
+    "label": "התחלת הקלטה",
+    "when": {
+      "featuresAny": [
+        "dashboard__record_venture",
+        "projects__record_venture"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__rv__transcribe_openai",
+    "type": "checkbox",
+    "label": "תמלול עם OpenAI",
+    "when": {
+      "featuresAny": [
+        "dashboard__record_venture",
+        "projects__record_venture"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__rv__select_audio_file",
+    "type": "checkbox",
+    "label": "בחירת קובץ אודיו",
+    "when": {
+      "featuresAny": [
+        "dashboard__record_venture",
+        "projects__record_venture"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__rv__browser_voice_transcription",
+    "type": "checkbox",
+    "label": "תמלול קולי בדפדפן",
+    "when": {
+      "featuresAny": [
+        "dashboard__record_venture",
+        "projects__record_venture"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__rv__back_to_recording",
+    "type": "checkbox",
+    "label": "חזרה להקלטה",
+    "when": {
+      "featuresAny": [
+        "dashboard__record_venture",
+        "projects__record_venture"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__rv__close",
+    "type": "checkbox",
+    "label": "סגירה",
+    "when": {
+      "featuresAny": [
+        "dashboard__record_venture",
+        "projects__record_venture"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__rv__edit",
+    "type": "checkbox",
+    "label": "עריכה",
+    "when": {
+      "featuresAny": [
+        "dashboard__record_venture",
+        "projects__record_venture"
+      ]
+    }
+  },
+  {
+    "id": "tasks__create_new_task",
+    "type": "checkbox",
+    "label": "יצירת משימה חדשה",
+    "when": {
+      "featuresAny": [
+        "tasks__create_new_task",
+        "dashboard__my_tasks"
+      ]
+    }
+  },
+  {
+    "id": "tasks__delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "tasks__create_new_task",
+        "dashboard__my_tasks"
+      ]
+    }
+  },
+  {
+    "id": "tasks__edit",
+    "type": "checkbox",
+    "label": "עריכה",
+    "when": {
+      "featuresAny": [
+        "tasks__create_new_task",
+        "dashboard__my_tasks"
+      ]
+    }
+  },
+  {
+    "id": "tasks__close",
+    "type": "checkbox",
+    "label": "סגיר",
+    "when": {
+      "featuresAny": [
+        "tasks__create_new_task",
+        "dashboard__my_tasks"
+      ]
+    }
+  },
+  {
+    "id": "tasks__full_page",
+    "type": "checkbox",
+    "label": "לדף המשימות המלא",
+    "when": {
+      "featuresAny": [
+        "tasks__create_new_task",
+        "dashboard__my_tasks"
+      ]
+    }
+  },
+  {
+    "id": "tasks__google_calendar",
+    "type": "checkbox",
+    "label": "גוגל קלנדר",
+    "when": {
+      "featuresAny": [
+        "dashboard__google_calendar",
+        "dashboard__my_tasks",
+        "tasks__google_calendar"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__avc__display_count",
+    "type": "checkbox",
+    "label": "הצגת מספר המיזמים הפעילים",
+    "when": {
+      "featuresAny": [
+        "dashboard__active_ventures_count"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__pc__display_count",
+    "type": "checkbox",
+    "label": "הצגת מספר המשתתפות",
+    "when": {
+      "featuresAny": [
+        "dashboard__participants_count"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__tr__display_total",
+    "type": "checkbox",
+    "label": "הצגת סך ההכנסות",
+    "when": {
+      "featuresAny": [
+        "dashboard__total_revenue"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__gc__calendar_view",
+    "type": "checkbox",
+    "label": "תצוגת גוגל קלנדר",
+    "when": {
+      "featuresAny": [
+        "dashboard__google_calendar",
+        "tasks__google_calendar"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__ut__upcoming_tasks_view",
+    "type": "checkbox",
+    "label": "מציג משימות לימים הקרובים",
+    "when": {
+      "featuresAny": [
+        "dashboard__upcoming_tasks"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__qa__name",
+    "type": "checkbox",
+    "label": "שם",
+    "when": {
+      "featuresAny": [
+        "dashboard__questions_archive"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__qa__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "dashboard__questions_archive"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__qa__answer",
+    "type": "checkbox",
+    "label": "תשובה",
+    "when": {
+      "featuresAny": [
+        "dashboard__questions_archive"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__cu__email_link",
+    "type": "checkbox",
+    "label": "לינק למייל",
+    "when": {
+      "featuresAny": [
+        "dashboard__contact_us"
+      ]
+    }
+  },
+  {
+    "id": "dashboard__logout__system_logout",
+    "type": "checkbox",
+    "label": "התנתקות מהמערכת",
+    "when": {
+      "featuresAny": [
+        "dashboard__logout"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__team__name",
+    "type": "checkbox",
+    "label": "שם",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__today_team_attendance"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__team__check_in",
+    "type": "checkbox",
+    "label": "כניסה",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__today_team_attendance"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__team__check_out",
+    "type": "checkbox",
+    "label": "יציאה",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__today_team_attendance"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__team__location",
+    "type": "checkbox",
+    "label": "מקום",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__today_team_attendance"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__team__salary",
+    "type": "checkbox",
+    "label": "שכר",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__today_team_attendance"
+      ]
+    }
+  },
+  {
+    "id": "attendance_clock__team__hourly_global",
+    "type": "checkbox",
+    "label": "שעתי/גלובלי",
+    "when": {
+      "featuresAny": [
+        "attendance_clock__today_team_attendance"
+      ]
+    }
+  },
+  {
+    "id": "mkt_upload__doc_name",
+    "type": "checkbox",
+    "label": "שם המסמך",
+    "when": {
+      "featuresAny": [
+        "dashboard__upload_marketing_documents",
+        "marketing_materials_gantt__upload_marketing_documents"
+      ]
+    }
+  },
+  {
+    "id": "mkt_upload__project_link",
+    "type": "checkbox",
+    "label": "שיוך לפרויקט",
+    "when": {
+      "featuresAny": [
+        "dashboard__upload_marketing_documents",
+        "marketing_materials_gantt__upload_marketing_documents"
+      ]
+    }
+  },
+  {
+    "id": "mkt_upload__external_url",
+    "type": "checkbox",
+    "label": "קישור חיצוני (אופציונלי)",
+    "when": {
+      "featuresAny": [
+        "dashboard__upload_marketing_documents",
+        "marketing_materials_gantt__upload_marketing_documents"
+      ]
+    }
+  },
+  {
+    "id": "mkt_upload__notes",
+    "type": "checkbox",
+    "label": "הערות",
+    "when": {
+      "featuresAny": [
+        "dashboard__upload_marketing_documents",
+        "marketing_materials_gantt__upload_marketing_documents"
+      ]
+    }
+  },
+  {
+    "id": "mkt_upload__file_pick",
+    "type": "checkbox",
+    "label": "בחירת קובץ",
+    "when": {
+      "featuresAny": [
+        "dashboard__upload_marketing_documents",
+        "marketing_materials_gantt__upload_marketing_documents"
+      ]
+    }
+  },
+  {
+    "id": "mkt_upload__save_to_archive",
+    "type": "checkbox",
+    "label": "שמירת מסמך שיווקי (כניסה לארכיון)",
+    "when": {
+      "featuresAny": [
+        "dashboard__upload_marketing_documents",
+        "marketing_materials_gantt__upload_marketing_documents"
+      ]
+    }
+  },
+  {
+    "id": "doc_archive__doc_name",
+    "type": "checkbox",
+    "label": "שם המסמך",
+    "when": {
+      "featuresAny": [
+        "create_documents__documents_archive",
+        "dashboard__documents_archive",
+        "marketing_materials_gantt__documents_archive"
+      ]
+    }
+  },
+  {
+    "id": "doc_archive__project_name",
+    "type": "checkbox",
+    "label": "שם הפרויקט",
+    "when": {
+      "featuresAny": [
+        "create_documents__documents_archive",
+        "dashboard__documents_archive",
+        "marketing_materials_gantt__documents_archive"
+      ]
+    }
+  },
+  {
+    "id": "doc_archive__file_name",
+    "type": "checkbox",
+    "label": "שם הקובץ",
+    "when": {
+      "featuresAny": [
+        "create_documents__documents_archive",
+        "dashboard__documents_archive",
+        "marketing_materials_gantt__documents_archive"
+      ]
+    }
+  },
+  {
+    "id": "doc_archive__delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "create_documents__documents_archive",
+        "dashboard__documents_archive",
+        "marketing_materials_gantt__documents_archive"
+      ]
+    }
+  },
+  {
+    "id": "doc_archive__edit",
+    "type": "checkbox",
+    "label": "עריכה",
+    "when": {
+      "featuresAny": [
+        "create_documents__documents_archive",
+        "dashboard__documents_archive",
+        "marketing_materials_gantt__documents_archive"
+      ]
+    }
+  },
+  {
+    "id": "doc_archive__open_file",
+    "type": "checkbox",
+    "label": "פתיחת קובץ",
+    "when": {
+      "featuresAny": [
+        "create_documents__documents_archive",
+        "dashboard__documents_archive",
+        "marketing_materials_gantt__documents_archive"
+      ]
+    }
+  },
+  {
+    "id": "kanban__task_status",
+    "type": "checkbox",
+    "label": "סטטוס המשימה",
+    "when": {
+      "featuresAny": [
+        "finance__weekly_tasks",
+        "tasks__kanban_board"
+      ]
+    }
+  },
+  {
+    "id": "kanban__delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "finance__weekly_tasks",
+        "tasks__kanban_board"
+      ]
+    }
+  },
+  {
+    "id": "kanban__task_name",
+    "type": "checkbox",
+    "label": "שם המשימה",
+    "when": {
+      "featuresAny": [
+        "finance__weekly_tasks",
+        "tasks__kanban_board"
+      ]
+    }
+  },
+  {
+    "id": "kanban__edit",
+    "type": "checkbox",
+    "label": "עריכה",
+    "when": {
+      "featuresAny": [
+        "finance__weekly_tasks",
+        "tasks__kanban_board"
+      ]
+    }
+  },
+  {
+    "id": "kanban__supplier_link",
+    "type": "checkbox",
+    "label": "שיוך לספק",
+    "when": {
+      "featuresAny": [
+        "finance__weekly_tasks",
+        "tasks__kanban_board"
+      ]
+    }
+  },
+  {
+    "id": "kanban__priority",
+    "type": "checkbox",
+    "label": "רמת חשיבות",
+    "when": {
+      "featuresAny": [
+        "finance__weekly_tasks",
+        "tasks__kanban_board"
+      ]
+    }
+  },
+  {
+    "id": "kanban__due_date",
+    "type": "checkbox",
+    "label": "תאריך יעד",
+    "when": {
+      "featuresAny": [
+        "finance__weekly_tasks",
+        "tasks__kanban_board"
+      ]
+    }
+  },
+  {
+    "id": "proj_display__name",
+    "type": "checkbox",
+    "label": "שם הפרויקט",
+    "when": {
+      "featuresAny": [
+        "projects__display_projects"
+      ]
+    }
+  },
+  {
+    "id": "proj_display__status",
+    "type": "checkbox",
+    "label": "סטטוס הפרויקט",
+    "when": {
+      "featuresAny": [
+        "projects__display_projects"
+      ]
+    }
+  },
+  {
+    "id": "proj_display__start_date",
+    "type": "checkbox",
+    "label": "תאריך תחילת הפרויקט",
+    "when": {
+      "featuresAny": [
+        "projects__display_projects"
+      ]
+    }
+  },
+  {
+    "id": "proj_display__delete",
+    "type": "checkbox",
+    "label": "מחיקת הפרויקט",
+    "when": {
+      "featuresAny": [
+        "projects__display_projects"
+      ]
+    }
+  },
+  {
+    "id": "proj_display__instructor",
+    "type": "checkbox",
+    "label": "מנחת הפרויקט",
+    "when": {
+      "featuresAny": [
+        "projects__display_projects"
+      ]
+    }
+  },
+  {
+    "id": "proj_display__subject",
+    "type": "checkbox",
+    "label": "נושא הפרויקט",
+    "when": {
+      "featuresAny": [
+        "projects__display_projects"
+      ]
+    }
+  },
+  {
+    "id": "proj_display__dates",
+    "type": "checkbox",
+    "label": "תאריכים לפרויקט",
+    "when": {
+      "featuresAny": [
+        "projects__display_projects"
+      ]
+    }
+  },
+  {
+    "id": "proj_display__office_notes",
+    "type": "checkbox",
+    "label": "הערות מהמשרד",
+    "when": {
+      "featuresAny": [
+        "projects__display_projects"
+      ]
+    }
+  },
+  {
+    "id": "proj_display__create_task",
+    "type": "checkbox",
+    "label": "צור משימה",
+    "when": {
+      "featuresAny": [
+        "projects__display_projects"
+      ]
+    }
+  },
+  {
+    "id": "proj_display__zoom_series",
+    "type": "checkbox",
+    "label": "סדרת זום",
+    "when": {
+      "featuresAny": [
+        "projects__display_projects"
+      ]
+    }
+  },
+  {
+    "id": "proj_display__venture_sessions_card",
+    "type": "checkbox",
+    "label": "בכרטיס מפגשים למיזם",
+    "when": {
+      "featuresAny": [
+        "projects__display_projects"
+      ]
+    }
+  },
+  {
+    "id": "assess_team__google_calendar",
+    "type": "checkbox",
+    "label": "התחברות ליומן גוגל",
+    "when": {
+      "featuresAny": [
+        "assessments__create_team_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_team__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "assessments__create_team_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_team__team_pick",
+    "type": "checkbox",
+    "label": "בחירת צוותים",
+    "when": {
+      "featuresAny": [
+        "assessments__create_team_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_team__participants",
+    "type": "checkbox",
+    "label": "משתתפים בישיבה",
+    "when": {
+      "featuresAny": [
+        "assessments__create_team_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_team__add_participant",
+    "type": "checkbox",
+    "label": "הוספת משתתף",
+    "when": {
+      "featuresAny": [
+        "assessments__create_team_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_team__subject",
+    "type": "checkbox",
+    "label": "נושא הישיבה",
+    "when": {
+      "featuresAny": [
+        "assessments__create_team_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_team__preview",
+    "type": "checkbox",
+    "label": "תצוגה מקדימה",
+    "when": {
+      "featuresAny": [
+        "assessments__create_team_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_team__send_email",
+    "type": "checkbox",
+    "label": "שליחת מייל לצוות",
+    "when": {
+      "featuresAny": [
+        "assessments__create_team_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_prep__google_calendar",
+    "type": "checkbox",
+    "label": "התחברות ליומן גוגל",
+    "when": {
+      "featuresAny": [
+        "assessments__project_preparation"
+      ]
+    }
+  },
+  {
+    "id": "assess_prep__project_pick",
+    "type": "checkbox",
+    "label": "בחירת פרויקט",
+    "when": {
+      "featuresAny": [
+        "assessments__project_preparation"
+      ]
+    }
+  },
+  {
+    "id": "assess_prep__equipment",
+    "type": "checkbox",
+    "label": "הציוד הנדרש",
+    "when": {
+      "featuresAny": [
+        "assessments__project_preparation"
+      ]
+    }
+  },
+  {
+    "id": "assess_prep__participants",
+    "type": "checkbox",
+    "label": "משתתפים בהיערכות",
+    "when": {
+      "featuresAny": [
+        "assessments__project_preparation"
+      ]
+    }
+  },
+  {
+    "id": "assess_prep__add_participant",
+    "type": "checkbox",
+    "label": "הוספת משתתף",
+    "when": {
+      "featuresAny": [
+        "assessments__project_preparation"
+      ]
+    }
+  },
+  {
+    "id": "assess_prep__preview",
+    "type": "checkbox",
+    "label": "תצוגה מקדימה",
+    "when": {
+      "featuresAny": [
+        "assessments__project_preparation"
+      ]
+    }
+  },
+  {
+    "id": "assess_prep__send_email",
+    "type": "checkbox",
+    "label": "שליחת מייל הערכות לצוות",
+    "when": {
+      "featuresAny": [
+        "assessments__project_preparation"
+      ]
+    }
+  },
+  {
+    "id": "assess_openday__google_calendar",
+    "type": "checkbox",
+    "label": "התחברות ליומן גוגל",
+    "when": {
+      "featuresAny": [
+        "assessments__create_open_day"
+      ]
+    }
+  },
+  {
+    "id": "assess_openday__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "assessments__create_open_day"
+      ]
+    }
+  },
+  {
+    "id": "assess_openday__participants",
+    "type": "checkbox",
+    "label": "משתתפים ביום פתוח",
+    "when": {
+      "featuresAny": [
+        "assessments__create_open_day"
+      ]
+    }
+  },
+  {
+    "id": "assess_openday__add_participant",
+    "type": "checkbox",
+    "label": "הוספת משתתף",
+    "when": {
+      "featuresAny": [
+        "assessments__create_open_day"
+      ]
+    }
+  },
+  {
+    "id": "assess_openday__notes",
+    "type": "checkbox",
+    "label": "הערות",
+    "when": {
+      "featuresAny": [
+        "assessments__create_open_day"
+      ]
+    }
+  },
+  {
+    "id": "assess_openday__preview",
+    "type": "checkbox",
+    "label": "תצוגה מקדימה",
+    "when": {
+      "featuresAny": [
+        "assessments__create_open_day"
+      ]
+    }
+  },
+  {
+    "id": "assess_openday__send_email",
+    "type": "checkbox",
+    "label": "שליחת מייל יום פתוח לצוות",
+    "when": {
+      "featuresAny": [
+        "assessments__create_open_day"
+      ]
+    }
+  },
+  {
+    "id": "assess_interview__google_calendar",
+    "type": "checkbox",
+    "label": "התחברות ליומן גוגל",
+    "when": {
+      "featuresAny": [
+        "assessments__create_interview_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_interview__datetime",
+    "type": "checkbox",
+    "label": "תאריך ושעה",
+    "when": {
+      "featuresAny": [
+        "assessments__create_interview_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_interview__participants",
+    "type": "checkbox",
+    "label": "משתתפים בפגישת הראיון",
+    "when": {
+      "featuresAny": [
+        "assessments__create_interview_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_interview__add_participant",
+    "type": "checkbox",
+    "label": "הוספת משתתף",
+    "when": {
+      "featuresAny": [
+        "assessments__create_interview_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_interview__notes",
+    "type": "checkbox",
+    "label": "הערות",
+    "when": {
+      "featuresAny": [
+        "assessments__create_interview_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_interview__preview",
+    "type": "checkbox",
+    "label": "תצוגה מקדימה",
+    "when": {
+      "featuresAny": [
+        "assessments__create_interview_meeting"
+      ]
+    }
+  },
+  {
+    "id": "assess_interview__send_email",
+    "type": "checkbox",
+    "label": "שליחת מייל פגישת ראיון לצוות",
+    "when": {
+      "featuresAny": [
+        "assessments__create_interview_meeting"
+      ]
+    }
+  },
+  {
+    "id": "course_upload__doc_name",
+    "type": "checkbox",
+    "label": "שם המסמך",
+    "when": {
+      "featuresAny": [
+        "course_materials__upload_course_material"
+      ]
+    }
+  },
+  {
+    "id": "course_upload__project_link",
+    "type": "checkbox",
+    "label": "שיוך לפרויקט",
+    "when": {
+      "featuresAny": [
+        "course_materials__upload_course_material"
+      ]
+    }
+  },
+  {
+    "id": "course_upload__external_url",
+    "type": "checkbox",
+    "label": "קישור חיצוני",
+    "when": {
+      "featuresAny": [
+        "course_materials__upload_course_material"
+      ]
+    }
+  },
+  {
+    "id": "course_upload__notes",
+    "type": "checkbox",
+    "label": "הערות",
+    "when": {
+      "featuresAny": [
+        "course_materials__upload_course_material"
+      ]
+    }
+  },
+  {
+    "id": "course_upload__file_pick",
+    "type": "checkbox",
+    "label": "בחירת קובץ",
+    "when": {
+      "featuresAny": [
+        "course_materials__upload_course_material"
+      ]
+    }
+  },
+  {
+    "id": "course_upload__save_to_archive",
+    "type": "checkbox",
+    "label": "שמירת חומר קורס (כניסה לארכיון)",
+    "when": {
+      "featuresAny": [
+        "course_materials__upload_course_material"
+      ]
+    }
+  },
+  {
+    "id": "course_archive__course_name",
+    "type": "checkbox",
+    "label": "שם הקורס",
+    "when": {
+      "featuresAny": [
+        "course_materials__course_materials_archive"
+      ]
+    }
+  },
+  {
+    "id": "course_archive__project_name",
+    "type": "checkbox",
+    "label": "שם הפרויקט",
+    "when": {
+      "featuresAny": [
+        "course_materials__course_materials_archive"
+      ]
+    }
+  },
+  {
+    "id": "course_archive__file_name",
+    "type": "checkbox",
+    "label": "שם הקובץ",
+    "when": {
+      "featuresAny": [
+        "course_materials__course_materials_archive"
+      ]
+    }
+  },
+  {
+    "id": "course_archive__delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "course_materials__course_materials_archive"
+      ]
+    }
+  },
+  {
+    "id": "course_archive__edit",
+    "type": "checkbox",
+    "label": "עריכה",
+    "when": {
+      "featuresAny": [
+        "course_materials__course_materials_archive"
+      ]
+    }
+  },
+  {
+    "id": "course_archive__open_file",
+    "type": "checkbox",
+    "label": "פתיחת קובץ",
+    "when": {
+      "featuresAny": [
+        "course_materials__course_materials_archive"
+      ]
+    }
+  },
+  {
+    "id": "media_campaign__name",
+    "type": "checkbox",
+    "label": "שם הקמפיין",
+    "when": {
+      "featuresAny": [
+        "media__create_campaign"
+      ]
+    }
+  },
+  {
+    "id": "media_campaign__media_pick",
+    "type": "checkbox",
+    "label": "בחירת מדיה",
+    "when": {
+      "featuresAny": [
+        "media__create_campaign"
+      ]
+    }
+  },
+  {
+    "id": "media_campaign__marketing_pick",
+    "type": "checkbox",
+    "label": "בחירת חומרי השיווק",
+    "when": {
+      "featuresAny": [
+        "media__create_campaign"
+      ]
+    }
+  },
+  {
+    "id": "media_campaign__notes",
+    "type": "checkbox",
+    "label": "הערות",
+    "when": {
+      "featuresAny": [
+        "media__create_campaign"
+      ]
+    }
+  },
+  {
+    "id": "media_campaign__submit",
+    "type": "checkbox",
+    "label": "יצירת קמפיין",
+    "when": {
+      "featuresAny": [
+        "media__create_campaign"
+      ]
+    }
+  },
+  {
+    "id": "media_archive__name",
+    "type": "checkbox",
+    "label": "שם הקמפיין",
+    "when": {
+      "featuresAny": [
+        "media__campaigns_archive"
+      ]
+    }
+  },
+  {
+    "id": "media_archive__file_upload",
+    "type": "checkbox",
+    "label": "העלאת קבצים",
+    "when": {
+      "featuresAny": [
+        "media__campaigns_archive"
+      ]
+    }
+  },
+  {
+    "id": "media_archive__media_names",
+    "type": "checkbox",
+    "label": "שמות מדיה",
+    "when": {
+      "featuresAny": [
+        "media__campaigns_archive"
+      ]
+    }
+  },
+  {
+    "id": "media_archive__marketing_names",
+    "type": "checkbox",
+    "label": "שמות חומרי השיווק",
+    "when": {
+      "featuresAny": [
+        "media__campaigns_archive"
+      ]
+    }
+  },
+  {
+    "id": "media_archive__edit",
+    "type": "checkbox",
+    "label": "עריכה",
+    "when": {
+      "featuresAny": [
+        "media__campaigns_archive"
+      ]
+    }
+  },
+  {
+    "id": "media_archive__delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "media__campaigns_archive"
+      ]
+    }
+  },
+  {
+    "id": "post_create__name",
+    "type": "checkbox",
+    "label": "שם הפוסט",
+    "when": {
+      "featuresAny": [
+        "posts__create_new_post"
+      ]
+    }
+  },
+  {
+    "id": "post_create__project_link",
+    "type": "checkbox",
+    "label": "שיוך לפרויקט",
+    "when": {
+      "featuresAny": [
+        "posts__create_new_post"
+      ]
+    }
+  },
+  {
+    "id": "post_create__external_platform",
+    "type": "checkbox",
+    "label": "קישור לפלטפורמה חיצונית",
+    "when": {
+      "featuresAny": [
+        "posts__create_new_post"
+      ]
+    }
+  },
+  {
+    "id": "post_create__team_email_pick",
+    "type": "checkbox",
+    "label": "בחירת שליחה למייל של איש צוות",
+    "when": {
+      "featuresAny": [
+        "posts__create_new_post"
+      ]
+    }
+  },
+  {
+    "id": "post_create__notes",
+    "type": "checkbox",
+    "label": "הערות",
+    "when": {
+      "featuresAny": [
+        "posts__create_new_post"
+      ]
+    }
+  },
+  {
+    "id": "post_create__create_and_email",
+    "type": "checkbox",
+    "label": "צור פוסט והכן שליחה במייל",
+    "when": {
+      "featuresAny": [
+        "posts__create_new_post"
+      ]
+    }
+  },
+  {
+    "id": "post_create__sms_recipient_phone",
+    "type": "checkbox",
+    "label": "שליחה לרב מספר טלפון נמען (SMS)",
+    "when": {
+      "featuresAny": [
+        "posts__create_new_post"
+      ]
+    }
+  },
+  {
+    "id": "post_create__message_content",
+    "type": "checkbox",
+    "label": "תוכן ההודעה",
+    "when": {
+      "featuresAny": [
+        "posts__create_new_post"
+      ]
+    }
+  },
+  {
+    "id": "post_create__bulk_send",
+    "type": "checkbox",
+    "label": "שליחה לרב מספר",
+    "when": {
+      "featuresAny": [
+        "posts__create_new_post"
+      ]
+    }
+  },
+  {
+    "id": "post_create__doc_upload",
+    "type": "checkbox",
+    "label": "העלאת מסמך לפוסט",
+    "when": {
+      "featuresAny": [
+        "posts__create_new_post"
+      ]
+    }
+  },
+  {
+    "id": "post_archive__project_link",
+    "type": "checkbox",
+    "label": "שיוך לפרויקט",
+    "when": {
+      "featuresAny": [
+        "posts__posts_archive"
+      ]
+    }
+  },
+  {
+    "id": "post_archive__team_members",
+    "type": "checkbox",
+    "label": "אנשי צוות",
+    "when": {
+      "featuresAny": [
+        "posts__posts_archive"
+      ]
+    }
+  },
+  {
+    "id": "post_archive__delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "posts__posts_archive"
+      ]
+    }
+  },
+  {
+    "id": "post_archive__edit",
+    "type": "checkbox",
+    "label": "עריכה",
+    "when": {
+      "featuresAny": [
+        "posts__posts_archive"
+      ]
+    }
+  },
+  {
+    "id": "finance_client__add_venture",
+    "type": "checkbox",
+    "label": "הוספת מיזם חדש",
+    "when": {
+      "featuresAny": [
+        "finance__client_venture",
+        "institutions_cluster__client_venture",
+        "suppliers_cluster__client_venture"
+      ]
+    }
+  },
+  {
+    "id": "finance_client__search_venture",
+    "type": "checkbox",
+    "label": "חיפוש מיזם",
+    "when": {
+      "featuresAny": [
+        "finance__client_venture",
+        "institutions_cluster__client_venture",
+        "suppliers_cluster__client_venture"
+      ]
+    }
+  },
+  {
+    "id": "finance_client__view_ventures",
+    "type": "checkbox",
+    "label": "תצוגת מיזמים",
+    "when": {
+      "featuresAny": [
+        "finance__client_venture",
+        "institutions_cluster__client_venture",
+        "suppliers_cluster__client_venture"
+      ]
+    }
+  },
+  {
+    "id": "finance_client__add_client",
+    "type": "checkbox",
+    "label": "הוספת לקוח חדש",
+    "when": {
+      "featuresAny": [
+        "finance__client_venture",
+        "institutions_cluster__client_venture",
+        "suppliers_cluster__client_venture"
+      ]
+    }
+  },
+  {
+    "id": "finance_client__search_clients",
+    "type": "checkbox",
+    "label": "חיפוש לקוחות",
+    "when": {
+      "featuresAny": [
+        "finance__client_venture",
+        "institutions_cluster__client_venture",
+        "suppliers_cluster__client_venture"
+      ]
+    }
+  },
+  {
+    "id": "finance_client__view_clients",
+    "type": "checkbox",
+    "label": "תצוגת לקוחות",
+    "when": {
+      "featuresAny": [
+        "finance__client_venture",
+        "institutions_cluster__client_venture",
+        "suppliers_cluster__client_venture"
+      ]
+    }
+  },
+  {
+    "id": "finance_task__venture_name",
+    "type": "checkbox",
+    "label": "שם המיזם",
+    "when": {
+      "featuresAny": [
+        "finance__task",
+        "institutions_cluster__task",
+        "suppliers_cluster__task"
+      ]
+    }
+  },
+  {
+    "id": "finance_task__add_task",
+    "type": "checkbox",
+    "label": "הוספת משימה חדשה",
+    "when": {
+      "featuresAny": [
+        "finance__task",
+        "institutions_cluster__task",
+        "suppliers_cluster__task"
+      ]
+    }
+  },
+  {
+    "id": "finance_task__view_tasks",
+    "type": "checkbox",
+    "label": "תצוגת משימות",
+    "when": {
+      "featuresAny": [
+        "finance__task",
+        "institutions_cluster__task",
+        "suppliers_cluster__task"
+      ]
+    }
+  },
+  {
+    "id": "finance_task__edit_task",
+    "type": "checkbox",
+    "label": "עריכת המשימה",
+    "when": {
+      "featuresAny": [
+        "finance__task",
+        "institutions_cluster__task",
+        "suppliers_cluster__task"
+      ]
+    }
+  },
+  {
+    "id": "finance_report__search",
+    "type": "checkbox",
+    "label": "חיפוש לקוח/מיזם",
+    "when": {
+      "featuresAny": [
+        "finance__add_partner_report",
+        "finance__add_report"
+      ]
+    }
+  },
+  {
+    "id": "finance_report__account_pick",
+    "type": "checkbox",
+    "label": "בחירת חשבון",
+    "when": {
+      "featuresAny": [
+        "finance__add_partner_report",
+        "finance__add_report"
+      ]
+    }
+  },
+  {
+    "id": "finance_report__coaching_package",
+    "type": "checkbox",
+    "label": "בחירת חבילת ליווי",
+    "when": {
+      "featuresAny": [
+        "finance__add_partner_report",
+        "finance__add_report"
+      ]
+    }
+  },
+  {
+    "id": "finance_report__coaching_table",
+    "type": "checkbox",
+    "label": "הצגת טבלת חבילות ליווי",
+    "when": {
+      "featuresAny": [
+        "finance__add_partner_report",
+        "finance__add_report"
+      ]
+    }
+  },
+  {
+    "id": "finance_report__attendance_times",
+    "type": "checkbox",
+    "label": "זמני נוכחות משעון",
+    "when": {
+      "featuresAny": [
+        "finance__add_partner_report",
+        "finance__add_report"
+      ]
+    }
+  },
+  {
+    "id": "finance_report__personal_field",
+    "type": "checkbox",
+    "label": "בחירת שדה אישי",
+    "when": {
+      "featuresAny": [
+        "finance__add_partner_report",
+        "finance__add_report"
+      ]
+    }
+  },
+  {
+    "id": "finance_report__add_task",
+    "type": "checkbox",
+    "label": "הוספת משימה",
+    "when": {
+      "featuresAny": [
+        "finance__add_partner_report",
+        "finance__add_report"
+      ]
+    }
+  },
+  {
+    "id": "finance_report__add_income",
+    "type": "checkbox",
+    "label": "הוספת הכנסה",
+    "when": {
+      "featuresAny": [
+        "finance__add_partner_report",
+        "finance__add_report"
+      ]
+    }
+  },
+  {
+    "id": "finance_report__add_expense",
+    "type": "checkbox",
+    "label": "הוספת הוצאה",
+    "when": {
+      "featuresAny": [
+        "finance__add_partner_report",
+        "finance__add_report"
+      ]
+    }
+  },
+  {
+    "id": "finance_report__save",
+    "type": "checkbox",
+    "label": "שמירה",
+    "when": {
+      "featuresAny": [
+        "finance__add_partner_report",
+        "finance__add_report"
+      ]
+    }
+  },
+  {
+    "id": "finance_report__delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "finance__add_partner_report",
+        "finance__add_report"
+      ]
+    }
+  },
+  {
+    "id": "gantt_link__edu_budget",
+    "type": "checkbox",
+    "label": "לינק לתקציב לדוגמה",
+    "when": {
+      "featuresAny": [
+        "finance__gantt_link",
+        "institutions_cluster__gantt_link",
+        "suppliers_cluster__gantt_link"
+      ]
+    }
+  },
+  {
+    "id": "airtable__link",
+    "type": "checkbox",
+    "label": "לינק ל- Airtable",
+    "when": {
+      "featuresAny": [
+        "finance__airtable",
+        "suppliers_cluster__airtable"
+      ]
+    }
+  },
+  {
+    "id": "finance_metric__total_income_display",
+    "type": "checkbox",
+    "label": "תצוגת סה\"כ הכנסות (דוח + ממתינות באפליקציה)",
+    "when": {
+      "featuresAny": [
+        "finance__total_income"
+      ]
+    }
+  },
+  {
+    "id": "finance_metric__institutions_monthly_display",
+    "type": "checkbox",
+    "label": "תצוגת דוגמה א — הכנסות חודשיות",
+    "when": {
+      "featuresAny": [
+        "finance__institutions_monthly_income"
+      ]
+    }
+  },
+  {
+    "id": "finance_metric__suppliers_monthly_display",
+    "type": "checkbox",
+    "label": "תצוגת דוגמה ב — הכנסות חודשיות",
+    "when": {
+      "featuresAny": [
+        "finance__suppliers_monthly_income"
+      ]
+    }
+  },
+  {
+    "id": "finance_metric__self_entrepreneurship_monthly_display",
+    "type": "checkbox",
+    "label": "תצוגת דוגמה ג — הכנסות חודשיות",
+    "when": {
+      "featuresAny": [
+        "finance__self_entrepreneurship_monthly_income"
+      ]
+    }
+  },
+  {
+    "id": "finance_metric__freelance_monthly_display",
+    "type": "checkbox",
+    "label": "תצוגת דוגמה ד — הכנסות חודשיות",
+    "when": {
+      "featuresAny": [
+        "finance__freelance_monthly_income"
+      ]
+    }
+  },
+  {
+    "id": "finance_metric__cumulative_income_2026_display",
+    "type": "checkbox",
+    "label": "תצוגת הכנסה מצטברת לשנת מס 2026",
+    "when": {
+      "featuresAny": [
+        "finance__cumulative_income_2026"
+      ]
+    }
+  },
+  {
+    "id": "finance_metric__estimated_net_profit_display",
+    "type": "checkbox",
+    "label": "תצוגת רווח נקי משוער",
+    "when": {
+      "featuresAny": [
+        "finance__estimated_net_profit"
+      ]
+    }
+  },
+  {
+    "id": "finance_metric__total_expenses_display",
+    "type": "checkbox",
+    "label": "תצוגת סה\"כ הוצאות (דוח + באפליקציה)",
+    "when": {
+      "featuresAny": [
+        "finance__total_expenses"
+      ]
+    }
+  },
+  {
+    "id": "finance_metric__client_income_pending_display",
+    "type": "checkbox",
+    "label": "תצוגת הכנסות מלקוחות (ממתינות לתשלום)",
+    "when": {
+      "featuresAny": [
+        "finance__client_income_pending"
+      ]
+    }
+  },
+  {
+    "id": "invoices_folder__drive_display",
+    "type": "checkbox",
+    "label": "תצוגת חשבוניות בגוגל דרייב",
+    "when": {
+      "featuresAny": [
+        "finance__invoices_folder"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__charts_display",
+    "type": "checkbox",
+    "label": "תצוגת עוגות הכנסות והוצאות",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__month_pick",
+    "type": "checkbox",
+    "label": "בחירת חודש",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__year_pick",
+    "type": "checkbox",
+    "label": "בחירת שנה",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__price_telephony",
+    "type": "checkbox",
+    "label": "מחיר טלפוניה",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__price_manager_mobile",
+    "type": "checkbox",
+    "label": "מחיר פלאפון מנהלת",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__price_office_pension",
+    "type": "checkbox",
+    "label": "מחיר משרדית גמל",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__price_contract_lawyer",
+    "type": "checkbox",
+    "label": "מחיר עורך דין לחוזים",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__price_office_rent",
+    "type": "checkbox",
+    "label": "מחיר שכירות משרד",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__price_consultant",
+    "type": "checkbox",
+    "label": "מחיר ייעוץ יועצת",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__price_psychologist",
+    "type": "checkbox",
+    "label": "מחיר פסיכולוגית",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__price_organizational",
+    "type": "checkbox",
+    "label": "מחיר ארגונית",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__price_domain",
+    "type": "checkbox",
+    "label": "מחיר דומיין",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__price_manager_tablet",
+    "type": "checkbox",
+    "label": "מחיר טאבלט מנהלת",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__price_internet",
+    "type": "checkbox",
+    "label": "מחיר אינטרנט",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__add_field",
+    "type": "checkbox",
+    "label": "הוספת שדה",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__delete_field",
+    "type": "checkbox",
+    "label": "מחיקת שדה",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__download",
+    "type": "checkbox",
+    "label": "הורדה",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__file_upload",
+    "type": "checkbox",
+    "label": "העלאת קובץ",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__mgmt_overhead_total",
+    "type": "checkbox",
+    "label": "סה\"כ הנהלה וכלליות",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__load_ventures",
+    "type": "checkbox",
+    "label": "העמסת מיזמים מהמערכת",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__hr_hours",
+    "type": "checkbox",
+    "label": "שעות כ\"א",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__hourly_cost",
+    "type": "checkbox",
+    "label": "עלות לשעה",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__venture_profit",
+    "type": "checkbox",
+    "label": "רווח יזמי",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__taxation",
+    "type": "checkbox",
+    "label": "מיסוי",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__students_per_course",
+    "type": "checkbox",
+    "label": "תלמידות שצריך בכל קורס",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__course_total_hours",
+    "type": "checkbox",
+    "label": "סה\"כ שעות של קורס",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__sara_meir_zoom",
+    "type": "checkbox",
+    "label": "מפגשי זום שרה מאיר",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__business_seminar",
+    "type": "checkbox",
+    "label": "סמינר עסקי",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__ad_salaries",
+    "type": "checkbox",
+    "label": "משכורות פרסום",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__class_catering",
+    "type": "checkbox",
+    "label": "כיבוד לשיעורים",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__teacher_office_salaries",
+    "type": "checkbox",
+    "label": "משכורות מורות משרד",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__intern_ads",
+    "type": "checkbox",
+    "label": "פרסום סטאז'ריות",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__projector",
+    "type": "checkbox",
+    "label": "פרויקטורית",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__press_media_ads",
+    "type": "checkbox",
+    "label": "פרסום בעיתונים ומדיה",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__rent",
+    "type": "checkbox",
+    "label": "שכירות",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__reistart",
+    "type": "checkbox",
+    "label": "ריסטרט",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__maintenance_baruch",
+    "type": "checkbox",
+    "label": "תשלום לספק תחזוקה",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__open_day",
+    "type": "checkbox",
+    "label": "יום פתוח",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__meeting_vat",
+    "type": "checkbox",
+    "label": "מס מפגשים",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__moria_salary",
+    "type": "checkbox",
+    "label": "משכורת מוריה",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__total_cost",
+    "type": "checkbox",
+    "label": "סה\"כ עלות",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__course_percentages",
+    "type": "checkbox",
+    "label": "אחוזי הקורסים מתוך ה-100%",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__mgmt_overhead_sum",
+    "type": "checkbox",
+    "label": "סהכ הנהלה וכלליות",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__ventures",
+    "type": "checkbox",
+    "label": "מיזמים",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__workforce",
+    "type": "checkbox",
+    "label": "כוח אדם",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__total_costs",
+    "type": "checkbox",
+    "label": "סה\"כ עלויות",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__grand_total",
+    "type": "checkbox",
+    "label": "סה\"כ סופי",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__save_archive_report",
+    "type": "checkbox",
+    "label": "שמירה/ארכיון <דוח העסק>",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_dashboard__excel_download",
+    "type": "checkbox",
+    "label": "הורדת אקסל",
+    "when": {
+      "featuresAny": [
+        "finance__dashboard"
+      ]
+    }
+  },
+  {
+    "id": "finance_archive__excel_attendance",
+    "type": "checkbox",
+    "label": "הורדת קובץ אקסל דוח נוכחות חודשי",
+    "when": {
+      "featuresAny": [
+        "finance__archive",
+        "sales__archive",
+        "suppliers_cluster__archive"
+      ]
+    }
+  },
+  {
+    "id": "finance_archive__excel_active_projects",
+    "type": "checkbox",
+    "label": "הורדת קובץ אקסל דוח פרויקטים פעילים",
+    "when": {
+      "featuresAny": [
+        "finance__archive",
+        "sales__archive",
+        "suppliers_cluster__archive"
+      ]
+    }
+  },
+  {
+    "id": "finance_archive__excel_monthly_finance",
+    "type": "checkbox",
+    "label": "הורדת קובץ אקסל דוח פיננסי חודשי",
+    "when": {
+      "featuresAny": [
+        "finance__archive",
+        "sales__archive",
+        "suppliers_cluster__archive"
+      ]
+    }
+  },
+  {
+    "id": "finance_archive__archive_display",
+    "type": "checkbox",
+    "label": "תצוגת ארכיון",
+    "when": {
+      "featuresAny": [
+        "finance__archive",
+        "sales__archive",
+        "suppliers_cluster__archive"
+      ]
+    }
+  },
+  {
+    "id": "finance_archive__dashboard_display",
+    "type": "checkbox",
+    "label": "תצוגת דשבורד",
+    "when": {
+      "featuresAny": [
+        "finance__archive",
+        "sales__archive",
+        "suppliers_cluster__archive"
+      ]
+    }
+  },
+  {
+    "id": "finance_archive__project_calc_display",
+    "type": "checkbox",
+    "label": "תצוגת מחשבון הפרויקט",
+    "when": {
+      "featuresAny": [
+        "finance__archive",
+        "sales__archive",
+        "suppliers_cluster__archive"
+      ]
+    }
+  },
+  {
+    "id": "finance_archive__salary_calc_display",
+    "type": "checkbox",
+    "label": "תצוגת מחשבון משכורות",
+    "when": {
+      "featuresAny": [
+        "finance__archive",
+        "sales__archive",
+        "suppliers_cluster__archive"
+      ]
+    }
+  },
+  {
+    "id": "tithes__display",
+    "type": "checkbox",
+    "label": "תצוגת מעשרות",
+    "when": {
+      "featuresAny": [
+        "finance__tithes"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__charts_display",
+    "type": "checkbox",
+    "label": "תצוגת עוגה ויזואלית הכנסות והוצאות",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__name",
+    "type": "checkbox",
+    "label": "שם",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__project_name",
+    "type": "checkbox",
+    "label": "שם הפרויקט",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__course_percentages",
+    "type": "checkbox",
+    "label": "אחוזי הקורסים מתוך ה-100%",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__total_cost",
+    "type": "checkbox",
+    "label": "סה\"כ עלות",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__moria_salary",
+    "type": "checkbox",
+    "label": "משכורת מוריה",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__meeting_vat",
+    "type": "checkbox",
+    "label": "מס מפגשים",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__interns",
+    "type": "checkbox",
+    "label": "סטאז'ריות",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__open_day",
+    "type": "checkbox",
+    "label": "יום פתוח",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__maintenance_baruch",
+    "type": "checkbox",
+    "label": "תשלום לספק תחזוקה",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__rent",
+    "type": "checkbox",
+    "label": "שכירות",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__reistart",
+    "type": "checkbox",
+    "label": "ריסטרט",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__press_media_ads",
+    "type": "checkbox",
+    "label": "פרסום בעיתונים ומדיה",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__projector",
+    "type": "checkbox",
+    "label": "פרויקטורית",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__tax_year",
+    "type": "checkbox",
+    "label": "שנת מס",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__students_per_course",
+    "type": "checkbox",
+    "label": "תלמידות שצריך בכל קורס",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__course_total_hours",
+    "type": "checkbox",
+    "label": "סה\"כ שעות של קורס",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__sara_meir_zoom",
+    "type": "checkbox",
+    "label": "מפגשי זום שרה מאיר",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__business_seminar",
+    "type": "checkbox",
+    "label": "סמינר עסקי",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__ad_salaries",
+    "type": "checkbox",
+    "label": "משכורות פרסום",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__class_catering",
+    "type": "checkbox",
+    "label": "כיבוד לשיעורים",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__teacher_office_salaries",
+    "type": "checkbox",
+    "label": "משכורות מורות משרד",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__advertising",
+    "type": "checkbox",
+    "label": "פרסום",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__on_agenda",
+    "type": "checkbox",
+    "label": "מתי על הפרק?",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__priority",
+    "type": "checkbox",
+    "label": "עדיפות",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__status",
+    "type": "checkbox",
+    "label": "סטטוס",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__venture_name",
+    "type": "checkbox",
+    "label": "שם מיזם",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__split_period",
+    "type": "checkbox",
+    "label": "תקופת חלוקה חודשי/שנתי/רבעוני",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__reference_month",
+    "type": "checkbox",
+    "label": "חודש ייחוס",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__period",
+    "type": "checkbox",
+    "label": "תקופה",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__business_calc_total",
+    "type": "checkbox",
+    "label": "סה״כ מחשבון עסק (תקופה)",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__active_projects_tax_year",
+    "type": "checkbox",
+    "label": "פרויקטים פעילים (שנת מס)",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__mgmt_overhead_part",
+    "type": "checkbox",
+    "label": "חלק הנהלה וכלליות",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__ventures_part",
+    "type": "checkbox",
+    "label": "חלק מיזמים",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__workforce_part",
+    "type": "checkbox",
+    "label": "חלק כוח אדם",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__business_calc_part_total",
+    "type": "checkbox",
+    "label": "סה״כ חלק ממחשבון העסק",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__attendance_hours_total",
+    "type": "checkbox",
+    "label": "סה\"כ שעות מהנוכחות",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__cost_per_student",
+    "type": "checkbox",
+    "label": "עלות לתלמידה (סה״כ ÷ תלמידות)",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__cumulative_income",
+    "type": "checkbox",
+    "label": "הכנסה מצטברת (תמחור × תלמידות)",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__student_count",
+    "type": "checkbox",
+    "label": "מספר תלמידות",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__price_per_student",
+    "type": "checkbox",
+    "label": "תמחור לתלמידה (₪)",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__calculation_base",
+    "type": "checkbox",
+    "label": "בסיס לחישוב (ריק = סכום משכורות מהשדות: ₪0)",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__manager_addon",
+    "type": "checkbox",
+    "label": "תוספת מנהל (אוטומטי)",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__expenses",
+    "type": "checkbox",
+    "label": "הוצאות",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__income",
+    "type": "checkbox",
+    "label": "הכנסות",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__balance",
+    "type": "checkbox",
+    "label": "יתרה (הכנסות − הוצאות)",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__add_employee",
+    "type": "checkbox",
+    "label": "הוספת עובד",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__pdf",
+    "type": "checkbox",
+    "label": "PDF",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__excel_download",
+    "type": "checkbox",
+    "label": "הורדת אקסל",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "proj_calc__save_archive_projects",
+    "type": "checkbox",
+    "label": "שמירה+ארכיון פרויקטים",
+    "when": {
+      "featuresAny": [
+        "finance__project_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__charts_display",
+    "type": "checkbox",
+    "label": "תצוגת עוגה ויזואלית הכנסות והוצאות",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__reports_archive_btn",
+    "type": "checkbox",
+    "label": "כפתור ארכיון דוחות משכורת",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__rate_year",
+    "type": "checkbox",
+    "label": "תעריף שנה",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__employee",
+    "type": "checkbox",
+    "label": "עובדת",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__hourly_rate",
+    "type": "checkbox",
+    "label": "תעריף לשעה לעובדת",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__bonus",
+    "type": "checkbox",
+    "label": "בונוס (₪)",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__travel",
+    "type": "checkbox",
+    "label": "נסיעות (₪)",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__other_addons",
+    "type": "checkbox",
+    "label": "תוספות אחרות (₪)",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__add_field",
+    "type": "checkbox",
+    "label": "הוספת שדה",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__deductions",
+    "type": "checkbox",
+    "label": "ניכויים",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__notes",
+    "type": "checkbox",
+    "label": "הערות",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__total_hours",
+    "type": "checkbox",
+    "label": "סה\"כ שעות",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__hours_amount",
+    "type": "checkbox",
+    "label": "סכום משעות",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__gross",
+    "type": "checkbox",
+    "label": "ברוטו(כולל תוספות)",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__total_pay",
+    "type": "checkbox",
+    "label": "סה\"כ לתשלום",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__save_report",
+    "type": "checkbox",
+    "label": "שמירת דוח",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__send_email",
+    "type": "checkbox",
+    "label": "שליחה במייל",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__excel_download",
+    "type": "checkbox",
+    "label": "הורדה לאקסל",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__col_employee",
+    "type": "checkbox",
+    "label": "עובדת",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__col_status",
+    "type": "checkbox",
+    "label": "סטטוס",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__col_received",
+    "type": "checkbox",
+    "label": "התקבל",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__col_reminder",
+    "type": "checkbox",
+    "label": "תזכורת",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__col_actions",
+    "type": "checkbox",
+    "label": "פעולות",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__seller",
+    "type": "checkbox",
+    "label": "המוכרת",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__student",
+    "type": "checkbox",
+    "label": "התלמידה",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__external_partnership",
+    "type": "checkbox",
+    "label": "שת״פ חיצוני",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__commission_amount",
+    "type": "checkbox",
+    "label": "גובה העמלה (₪)",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__quantity",
+    "type": "checkbox",
+    "label": "כמות",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__row_total",
+    "type": "checkbox",
+    "label": "סה\"כ",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__add_row",
+    "type": "checkbox",
+    "label": "הוספת שורה",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "salary_calc__total_commissions",
+    "type": "checkbox",
+    "label": "סה\"כ עמלות",
+    "when": {
+      "featuresAny": [
+        "finance__salary_calculator"
+      ]
+    }
+  },
+  {
+    "id": "chat__team_broadcast",
+    "type": "checkbox",
+    "label": "שליחת הודעה לכל הצוות",
+    "when": {
+      "featuresAny": [
+        "chat__chat"
+      ]
+    }
+  },
+  {
+    "id": "chat__direct_messages",
+    "type": "checkbox",
+    "label": "הודעות ישירות",
+    "when": {
+      "featuresAny": [
+        "chat__chat"
+      ]
+    }
+  },
+  {
+    "id": "quick_links__gmail",
+    "type": "checkbox",
+    "label": "Gmail",
+    "when": {
+      "featuresAny": [
+        "quick_links__links"
+      ]
+    }
+  },
+  {
+    "id": "quick_links__google_calendar",
+    "type": "checkbox",
+    "label": "Google Calendar",
+    "when": {
+      "featuresAny": [
+        "quick_links__links"
+      ]
+    }
+  },
+  {
+    "id": "quick_links__google_drive",
+    "type": "checkbox",
+    "label": "Google Drive",
+    "when": {
+      "featuresAny": [
+        "quick_links__links"
+      ]
+    }
+  },
+  {
+    "id": "quick_links__zoom",
+    "type": "checkbox",
+    "label": "זום",
+    "when": {
+      "featuresAny": [
+        "quick_links__links"
+      ]
+    }
+  },
+  {
+    "id": "quick_links__whatsapp_web",
+    "type": "checkbox",
+    "label": "WhatsApp Web",
+    "when": {
+      "featuresAny": [
+        "quick_links__links"
+      ]
+    }
+  },
+  {
+    "id": "quick_links__google_sheets",
+    "type": "checkbox",
+    "label": "Google Sheets",
+    "when": {
+      "featuresAny": [
+        "quick_links__links"
+      ]
+    }
+  },
+  {
+    "id": "notif_task__name",
+    "type": "checkbox",
+    "label": "שם המשימה",
+    "when": {
+      "featuresAny": [
+        "notifications__task_notifications"
+      ]
+    }
+  },
+  {
+    "id": "notif_task__status",
+    "type": "checkbox",
+    "label": "סטטוס המשימה",
+    "when": {
+      "featuresAny": [
+        "notifications__task_notifications"
+      ]
+    }
+  },
+  {
+    "id": "notif_task__delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "notifications__task_notifications"
+      ]
+    }
+  },
+  {
+    "id": "create_client__name",
+    "type": "checkbox",
+    "label": "שם הלקוח",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__gantt_link",
+    "type": "checkbox",
+    "label": "לינק למערכת חיצונית",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__phone",
+    "type": "checkbox",
+    "label": "טלפון",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__email",
+    "type": "checkbox",
+    "label": "מייל",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__venture_name",
+    "type": "checkbox",
+    "label": "שם המיזם",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__venture_url",
+    "type": "checkbox",
+    "label": "קישור למיזם (אופציונלי)",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__notes",
+    "type": "checkbox",
+    "label": "הערות",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__extra_fields",
+    "type": "checkbox",
+    "label": "שדות נוספים",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__reminder_count",
+    "type": "checkbox",
+    "label": "כמות תזכורות",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__annual_budget_used",
+    "type": "checkbox",
+    "label": "שדה תקציב שנתי נוצל",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__budget_utilization_pct",
+    "type": "checkbox",
+    "label": "אחוז ניצול התקציב השנתי",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__budget_account",
+    "type": "checkbox",
+    "label": "חשבון תקציב",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__budget_deadlines",
+    "type": "checkbox",
+    "label": "תאריכי יעד למימוש התקציב",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__coaching_type",
+    "type": "checkbox",
+    "label": "סוג ליווי",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__invoices_uploaded",
+    "type": "checkbox",
+    "label": "חשבוניות שהועלו",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__invoices_pending",
+    "type": "checkbox",
+    "label": "חשבוניות ממתינות",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__coaching_packages_table",
+    "type": "checkbox",
+    "label": "טבלת חבילות ליווי",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__reminder_count_field",
+    "type": "checkbox",
+    "label": "כמות תזכורות שדה",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__income_expense_reports",
+    "type": "checkbox",
+    "label": "דוחות הכנסה והוצאה",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__total_income",
+    "type": "checkbox",
+    "label": "סך הכנסות",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__total_expenses",
+    "type": "checkbox",
+    "label": "סך הוצאות",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "create_client__save",
+    "type": "checkbox",
+    "label": "שמור לקוח",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__create_client",
+        "suppliers_cluster__create_client"
+      ]
+    }
+  },
+  {
+    "id": "cluster_date__gregorian_date",
+    "type": "checkbox",
+    "label": "תאריך לועזי",
+    "when": {
+      "featuresAny": [
+        "freelance_ventures__date",
+        "institutions_cluster__date",
+        "self_entrepreneurship__date",
+        "suppliers_cluster__date"
+      ]
+    }
+  },
+  {
+    "id": "cluster_date__day",
+    "type": "checkbox",
+    "label": "יום",
+    "when": {
+      "featuresAny": [
+        "freelance_ventures__date",
+        "institutions_cluster__date",
+        "self_entrepreneurship__date",
+        "suppliers_cluster__date"
+      ]
+    }
+  },
+  {
+    "id": "cluster_date__time",
+    "type": "checkbox",
+    "label": "שעה",
+    "when": {
+      "featuresAny": [
+        "freelance_ventures__date",
+        "institutions_cluster__date",
+        "self_entrepreneurship__date",
+        "suppliers_cluster__date"
+      ]
+    }
+  },
+  {
+    "id": "cluster_gcal_peek__calendar_view",
+    "type": "checkbox",
+    "label": "תצוגת יומן גוגל",
+    "when": {
+      "featuresAny": [
+        "freelance_ventures__google_calendar_peek",
+        "institutions_cluster__google_calendar_peek",
+        "self_entrepreneurship__google_calendar_peek",
+        "suppliers_cluster__google_calendar_peek"
+      ]
+    }
+  },
+  {
+    "id": "ic_ledger__add_client",
+    "type": "checkbox",
+    "label": "הוספת לקוח",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__ledger"
+      ]
+    }
+  },
+  {
+    "id": "ic_ledger__view_clients",
+    "type": "checkbox",
+    "label": "תצוגת לקוחות",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__ledger"
+      ]
+    }
+  },
+  {
+    "id": "ic_ledger__view_ventures",
+    "type": "checkbox",
+    "label": "תצוגת מיזמים",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__ledger"
+      ]
+    }
+  },
+  {
+    "id": "ic_ledger__delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__ledger"
+      ]
+    }
+  },
+  {
+    "id": "ic_ledger__edit",
+    "type": "checkbox",
+    "label": "עריכה",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__ledger"
+      ]
+    }
+  },
+  {
+    "id": "cluster_faq__open_questions_count",
+    "type": "checkbox",
+    "label": "מספר שאלות פתוחות",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__faq",
+        "suppliers_cluster__faq"
+      ]
+    }
+  },
+  {
+    "id": "cluster_faq__write_answers",
+    "type": "checkbox",
+    "label": "כתיבת תשובות לשאלות הפתוחות",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__faq",
+        "suppliers_cluster__faq"
+      ]
+    }
+  },
+  {
+    "id": "cluster_faq__create_question",
+    "type": "checkbox",
+    "label": "אפשרות לכתיבת שאלה חדשה",
+    "when": {
+      "featuresAny": [
+        "institutions_cluster__faq",
+        "suppliers_cluster__faq"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__subject",
+    "type": "checkbox",
+    "label": "נושא המיזם",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__components",
+    "type": "checkbox",
+    "label": "מרכיבי המיזם",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__add_component_row",
+    "type": "checkbox",
+    "label": "הוספת רכיב (שורה)",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__details",
+    "type": "checkbox",
+    "label": "פירוט",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__development_stages",
+    "type": "checkbox",
+    "label": "שלבי פיתוח",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__budget",
+    "type": "checkbox",
+    "label": "תקציב",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__development_end_target",
+    "type": "checkbox",
+    "label": "יעד סיום פיתוח",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__constraints",
+    "type": "checkbox",
+    "label": "אילוצים ומגבלות",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__notifications",
+    "type": "checkbox",
+    "label": "קבלת התראות",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__relevant_clients",
+    "type": "checkbox",
+    "label": "הלקוחות הרלוונטיים",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__marketing_sales",
+    "type": "checkbox",
+    "label": "שיווק ומכירות (תקציב + לו״ז)",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__writing",
+    "type": "checkbox",
+    "label": "כתיבה",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__send_message",
+    "type": "checkbox",
+    "label": "שלח מסר",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__return_to_inquiries",
+    "type": "checkbox",
+    "label": "חזרה לפניות",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__upload_docs_logo",
+    "type": "checkbox",
+    "label": "העלאת מסמכים / לוגו",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__choose_files",
+    "type": "checkbox",
+    "label": "בחרו קבצים — מסמכים או לוגו",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__cancel",
+    "type": "checkbox",
+    "label": "ביטול",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_create_venture__save_venture",
+    "type": "checkbox",
+    "label": "שמירת המיזם",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__create_venture",
+        "freelance_ventures__create_venture"
+      ]
+    }
+  },
+  {
+    "id": "se_open_ventures__venture_name",
+    "type": "checkbox",
+    "label": "שם המיזם",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__open_ventures_list",
+        "freelance_ventures__open_ventures_list"
+      ]
+    }
+  },
+  {
+    "id": "se_open_ventures__move_to_archive",
+    "type": "checkbox",
+    "label": "העברה לארכיון",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__open_ventures_list",
+        "freelance_ventures__open_ventures_list"
+      ]
+    }
+  },
+  {
+    "id": "se_open_ventures__ventures_archive",
+    "type": "checkbox",
+    "label": "ארכיון מיזמים",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__open_ventures_list",
+        "freelance_ventures__open_ventures_list"
+      ]
+    }
+  },
+  {
+    "id": "se_finance__income_from_report",
+    "type": "checkbox",
+    "label": "הכנסות מהדוח",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__finance",
+        "freelance_ventures__finance"
+      ]
+    }
+  },
+  {
+    "id": "se_finance__pending_income",
+    "type": "checkbox",
+    "label": "הכנסות ממתינות (מיזם או מחלקה)",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__finance",
+        "freelance_ventures__finance"
+      ]
+    }
+  },
+  {
+    "id": "se_finance__total_income",
+    "type": "checkbox",
+    "label": "דוגמה ג · סה״כ הכנסות",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__finance"
+      ]
+    }
+  },
+  {
+    "id": "fv_finance__total_income",
+    "type": "checkbox",
+    "label": "דוגמה ד · סה״כ הכנסות",
+    "when": {
+      "featuresAny": [
+        "freelance_ventures__finance"
+      ]
+    }
+  },
+  {
+    "id": "se_finance__app_expenses",
+    "type": "checkbox",
+    "label": "הוצאות באפליקציה (מיזם או מחלקה)",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__finance",
+        "freelance_ventures__finance"
+      ]
+    }
+  },
+  {
+    "id": "se_finance__estimated_balance",
+    "type": "checkbox",
+    "label": "מאזן משוער",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__finance",
+        "freelance_ventures__finance"
+      ]
+    }
+  },
+  {
+    "id": "se_attendance__time",
+    "type": "checkbox",
+    "label": "שעה",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__attendance_clock",
+        "freelance_ventures__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "se_attendance__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__attendance_clock",
+        "freelance_ventures__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "se_attendance__day",
+    "type": "checkbox",
+    "label": "יום",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__attendance_clock",
+        "freelance_ventures__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "se_attendance__venture",
+    "type": "checkbox",
+    "label": "מיזם",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__attendance_clock",
+        "freelance_ventures__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "se_attendance__task",
+    "type": "checkbox",
+    "label": "משימה",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__attendance_clock",
+        "freelance_ventures__attendance_clock"
+      ]
+    }
+  },
+  {
+    "id": "se_venture__view_ventures",
+    "type": "checkbox",
+    "label": "תצוגת מיזמים",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__venture",
+        "freelance_ventures__venture"
+      ]
+    }
+  },
+  {
+    "id": "se_venture__add_venture",
+    "type": "checkbox",
+    "label": "הוספת מיזם",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__venture",
+        "freelance_ventures__venture"
+      ]
+    }
+  },
+  {
+    "id": "se_venture__search_venture",
+    "type": "checkbox",
+    "label": "חיפוש מיזם",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__venture",
+        "freelance_ventures__venture"
+      ]
+    }
+  },
+  {
+    "id": "se_task__venture_name",
+    "type": "checkbox",
+    "label": "שם מיזם",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__task",
+        "freelance_ventures__task"
+      ]
+    }
+  },
+  {
+    "id": "se_task__add_task",
+    "type": "checkbox",
+    "label": "הוספת משימה",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__task",
+        "freelance_ventures__task"
+      ]
+    }
+  },
+  {
+    "id": "se_task__view_tasks_by_venture",
+    "type": "checkbox",
+    "label": "תצוגת משימות לפי מיזם",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__task",
+        "freelance_ventures__task"
+      ]
+    }
+  },
+  {
+    "id": "se_task__edit_task",
+    "type": "checkbox",
+    "label": "עריכת המשימה",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__task",
+        "freelance_ventures__task"
+      ]
+    }
+  },
+  {
+    "id": "se_ventures_archive__display_all",
+    "type": "checkbox",
+    "label": "מציג את כל המיזמים",
+    "when": {
+      "featuresAny": [
+        "self_entrepreneurship__ventures_archive",
+        "freelance_ventures__ventures_archive"
+      ]
+    }
+  },
+  {
+    "id": "faq_create_question__question_text",
+    "type": "checkbox",
+    "label": "נוסח השאלה",
+    "when": {
+      "featuresAny": [
+        "faq__create_question"
+      ]
+    }
+  },
+  {
+    "id": "faq_create_question__add_field",
+    "type": "checkbox",
+    "label": "הוספת שדה",
+    "when": {
+      "featuresAny": [
+        "faq__create_question"
+      ]
+    }
+  },
+  {
+    "id": "faq_create_question__cancel",
+    "type": "checkbox",
+    "label": "ביטול",
+    "when": {
+      "featuresAny": [
+        "faq__create_question"
+      ]
+    }
+  },
+  {
+    "id": "faq_create_question__send",
+    "type": "checkbox",
+    "label": "שליחה",
+    "when": {
+      "featuresAny": [
+        "faq__create_question"
+      ]
+    }
+  },
+  {
+    "id": "faq_questions_archive__question",
+    "type": "checkbox",
+    "label": "שאלה",
+    "when": {
+      "featuresAny": [
+        "faq__questions_archive"
+      ]
+    }
+  },
+  {
+    "id": "faq_questions_archive__answer",
+    "type": "checkbox",
+    "label": "תשובה",
+    "when": {
+      "featuresAny": [
+        "faq__questions_archive"
+      ]
+    }
+  },
+  {
+    "id": "faq_questions_archive__delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "faq__questions_archive"
+      ]
+    }
+  },
+  {
+    "id": "faq_questions_archive__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "faq__questions_archive"
+      ]
+    }
+  },
+  {
+    "id": "faq_open_questions__question",
+    "type": "checkbox",
+    "label": "שאלה",
+    "when": {
+      "featuresAny": [
+        "faq__open_questions"
+      ]
+    }
+  },
+  {
+    "id": "faq_open_questions__answer_input",
+    "type": "checkbox",
+    "label": "מקום לכתיבת תשובה",
+    "when": {
+      "featuresAny": [
+        "faq__open_questions"
+      ]
+    }
+  },
+  {
+    "id": "faq_open_questions__send",
+    "type": "checkbox",
+    "label": "שליחה",
+    "when": {
+      "featuresAny": [
+        "faq__open_questions"
+      ]
+    }
+  },
+  {
+    "id": "faq_open_questions__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "faq__open_questions"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__entity_cluster",
+    "type": "checkbox",
+    "label": "אשכול ישות",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__add_dynamic_field",
+    "type": "checkbox",
+    "label": "הוספת שדה דינמי",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__field_name",
+    "type": "checkbox",
+    "label": "שם השדה",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__field_type",
+    "type": "checkbox",
+    "label": "סוג שדה",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__required",
+    "type": "checkbox",
+    "label": "חובה",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__cancel",
+    "type": "checkbox",
+    "label": "ביטול",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__add",
+    "type": "checkbox",
+    "label": "הוספה",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__identification",
+    "type": "checkbox",
+    "label": "זיהוי",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__budget",
+    "type": "checkbox",
+    "label": "תקציב",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__budget_target_dates",
+    "type": "checkbox",
+    "label": "תאריכי יעד למימוש התקציב",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__support_package",
+    "type": "checkbox",
+    "label": "חבילת ליווי",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__tasks",
+    "type": "checkbox",
+    "label": "משימות",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__report_emails",
+    "type": "checkbox",
+    "label": "מיילי דוח",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__client",
+    "type": "checkbox",
+    "label": "לקוח",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__notes",
+    "type": "checkbox",
+    "label": "הערות",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_field_mgmt__additional_fields",
+    "type": "checkbox",
+    "label": "שדות נוספים",
+    "when": {
+      "featuresAny": [
+        "settings__field_management"
+      ]
+    }
+  },
+  {
+    "id": "settings_profile__full_name",
+    "type": "checkbox",
+    "label": "שם מלא",
+    "when": {
+      "featuresAny": [
+        "settings__profile"
+      ]
+    }
+  },
+  {
+    "id": "settings_profile__email",
+    "type": "checkbox",
+    "label": "דוא\"ל",
+    "when": {
+      "featuresAny": [
+        "settings__profile"
+      ]
+    }
+  },
+  {
+    "id": "settings_profile__phone",
+    "type": "checkbox",
+    "label": "טלפון",
+    "when": {
+      "featuresAny": [
+        "settings__profile"
+      ]
+    }
+  },
+  {
+    "id": "settings_system__notifications",
+    "type": "checkbox",
+    "label": "התראות",
+    "when": {
+      "featuresAny": [
+        "settings__system"
+      ]
+    }
+  },
+  {
+    "id": "settings_system__auto_reminders",
+    "type": "checkbox",
+    "label": "שליחת תזכורות אוטומטית",
+    "when": {
+      "featuresAny": [
+        "settings__system"
+      ]
+    }
+  },
+  {
+    "id": "settings_system__email_integration",
+    "type": "checkbox",
+    "label": "אינטגרציית מייל",
+    "when": {
+      "featuresAny": [
+        "settings__system"
+      ]
+    }
+  },
+  {
+    "id": "settings_departments__institutions_cluster",
+    "type": "checkbox",
+    "label": "דוגמה א",
+    "when": {
+      "featuresAny": [
+        "settings__departments"
+      ]
+    }
+  },
+  {
+    "id": "settings_departments__suppliers_cluster",
+    "type": "checkbox",
+    "label": "דוגמה ב",
+    "when": {
+      "featuresAny": [
+        "settings__departments"
+      ]
+    }
+  },
+  {
+    "id": "settings_departments__self_entrepreneurship",
+    "type": "checkbox",
+    "label": "דוגמה ג",
+    "when": {
+      "featuresAny": [
+        "settings__departments"
+      ]
+    }
+  },
+  {
+    "id": "settings_departments__freelance_ventures",
+    "type": "checkbox",
+    "label": "דוגמה ד",
+    "when": {
+      "featuresAny": [
+        "settings__departments"
+      ]
+    }
+  },
+  {
+    "id": "settings_version__application",
+    "type": "checkbox",
+    "label": "אפליקציה",
+    "when": {
+      "featuresAny": [
+        "settings__version"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan__select_venture",
+    "type": "checkbox",
+    "label": "בחירת מיזם",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan",
+        "marketing__marketing_plan"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan__select_template",
+    "type": "checkbox",
+    "label": "בחירת תבנית שיווק",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan",
+        "marketing__marketing_plan"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan__add_template",
+    "type": "checkbox",
+    "label": "הוספת תבנית שיווק",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan",
+        "marketing__marketing_plan"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan__cancel",
+    "type": "checkbox",
+    "label": "ביטול",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan",
+        "marketing__marketing_plan"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan__save",
+    "type": "checkbox",
+    "label": "שמירה לתכנית השיווק",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan",
+        "marketing__marketing_plan"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan_archive__search",
+    "type": "checkbox",
+    "label": "חיפוש תוכנית שיווק",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan_archive",
+        "marketing__marketing_plan_archive"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan_archive__by_ventures",
+    "type": "checkbox",
+    "label": "חלוקה לפי מיזמים",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan_archive",
+        "marketing__marketing_plan_archive"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan_archive__view_all_ventures",
+    "type": "checkbox",
+    "label": "תצוגת כל המיזמים",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan_archive",
+        "marketing__marketing_plan_archive"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan_archive__delete_venture",
+    "type": "checkbox",
+    "label": "מחיקת מיזם",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan_archive",
+        "marketing__marketing_plan_archive"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan_archive__venture_name",
+    "type": "checkbox",
+    "label": "שם המיזם",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan_archive",
+        "marketing__marketing_plan_archive"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan_archive__venture_content",
+    "type": "checkbox",
+    "label": "תוכן המיזם",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan_archive",
+        "marketing__marketing_plan_archive"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan_archive__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan_archive",
+        "marketing__marketing_plan_archive"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan_archive__clear_filter",
+    "type": "checkbox",
+    "label": "ניקוי סינון",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan_archive",
+        "marketing__marketing_plan_archive"
+      ]
+    }
+  },
+  {
+    "id": "content_marketing_plan_archive__close",
+    "type": "checkbox",
+    "label": "סגירה",
+    "when": {
+      "featuresAny": [
+        "content_creation__marketing_plan_archive",
+        "marketing__marketing_plan_archive"
+      ]
+    }
+  },
+  {
+    "id": "content_item__search",
+    "type": "checkbox",
+    "label": "חיפוש",
+    "when": {
+      "featuresAny": [
+        "content_creation__ad",
+        "content_creation__post",
+        "content_creation__landing_page",
+        "content_creation__join_message",
+        "content_creation__syllabus",
+        "content_creation__whatsapp_link",
+        "content_creation__lesson_link",
+        "content_creation__presentation",
+        "content_creation__flyer",
+        "content_creation__recording"
+      ]
+    }
+  },
+  {
+    "id": "content_item__search_filter",
+    "type": "checkbox",
+    "label": "סינון החיפוש",
+    "when": {
+      "featuresAny": [
+        "content_creation__ad",
+        "content_creation__post",
+        "content_creation__landing_page",
+        "content_creation__join_message",
+        "content_creation__syllabus",
+        "content_creation__whatsapp_link",
+        "content_creation__lesson_link",
+        "content_creation__presentation",
+        "content_creation__flyer",
+        "content_creation__recording"
+      ]
+    }
+  },
+  {
+    "id": "content_item__display",
+    "type": "checkbox",
+    "label": "תצוגת פוסט",
+    "when": {
+      "featuresAny": [
+        "content_creation__ad",
+        "content_creation__post",
+        "content_creation__landing_page",
+        "content_creation__join_message",
+        "content_creation__syllabus",
+        "content_creation__whatsapp_link",
+        "content_creation__lesson_link",
+        "content_creation__presentation",
+        "content_creation__flyer",
+        "content_creation__recording"
+      ]
+    }
+  },
+  {
+    "id": "content_item__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "content_creation__ad",
+        "content_creation__post",
+        "content_creation__landing_page",
+        "content_creation__join_message",
+        "content_creation__syllabus",
+        "content_creation__whatsapp_link",
+        "content_creation__lesson_link",
+        "content_creation__presentation",
+        "content_creation__flyer",
+        "content_creation__recording"
+      ]
+    }
+  },
+  {
+    "id": "content_item__edit",
+    "type": "checkbox",
+    "label": "עריכת פוסט",
+    "when": {
+      "featuresAny": [
+        "content_creation__ad",
+        "content_creation__post",
+        "content_creation__landing_page",
+        "content_creation__join_message",
+        "content_creation__syllabus",
+        "content_creation__whatsapp_link",
+        "content_creation__lesson_link",
+        "content_creation__presentation",
+        "content_creation__flyer",
+        "content_creation__recording"
+      ]
+    }
+  },
+  {
+    "id": "content_item__clear",
+    "type": "checkbox",
+    "label": "ניקוי",
+    "when": {
+      "featuresAny": [
+        "content_creation__ad",
+        "content_creation__post",
+        "content_creation__landing_page",
+        "content_creation__join_message",
+        "content_creation__syllabus",
+        "content_creation__whatsapp_link",
+        "content_creation__lesson_link",
+        "content_creation__presentation",
+        "content_creation__flyer",
+        "content_creation__recording"
+      ]
+    }
+  },
+  {
+    "id": "content_item__filter",
+    "type": "checkbox",
+    "label": "סינון",
+    "when": {
+      "featuresAny": [
+        "content_creation__ad",
+        "content_creation__post",
+        "content_creation__landing_page",
+        "content_creation__join_message",
+        "content_creation__syllabus",
+        "content_creation__whatsapp_link",
+        "content_creation__lesson_link",
+        "content_creation__presentation",
+        "content_creation__flyer",
+        "content_creation__recording"
+      ]
+    }
+  },
+  {
+    "id": "content_item__close",
+    "type": "checkbox",
+    "label": "סגירה",
+    "when": {
+      "featuresAny": [
+        "content_creation__ad",
+        "content_creation__post",
+        "content_creation__landing_page",
+        "content_creation__join_message",
+        "content_creation__syllabus",
+        "content_creation__whatsapp_link",
+        "content_creation__lesson_link",
+        "content_creation__presentation",
+        "content_creation__flyer",
+        "content_creation__recording"
+      ]
+    }
+  },
+  {
+    "id": "meetings_create__venture_name",
+    "type": "checkbox",
+    "label": "שם המיזם",
+    "when": {
+      "featuresAny": [
+        "meetings__create_new_meeting"
+      ]
+    }
+  },
+  {
+    "id": "meetings_create__title",
+    "type": "checkbox",
+    "label": "כותרת",
+    "when": {
+      "featuresAny": [
+        "meetings__create_new_meeting"
+      ]
+    }
+  },
+  {
+    "id": "meetings_create__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "meetings__create_new_meeting"
+      ]
+    }
+  },
+  {
+    "id": "meetings_create__time",
+    "type": "checkbox",
+    "label": "שעה",
+    "when": {
+      "featuresAny": [
+        "meetings__create_new_meeting"
+      ]
+    }
+  },
+  {
+    "id": "meetings_create__zoom_link",
+    "type": "checkbox",
+    "label": "קישור זום",
+    "when": {
+      "featuresAny": [
+        "meetings__create_new_meeting"
+      ]
+    }
+  },
+  {
+    "id": "meetings_create__cancel",
+    "type": "checkbox",
+    "label": "ביטול",
+    "when": {
+      "featuresAny": [
+        "meetings__create_new_meeting"
+      ]
+    }
+  },
+  {
+    "id": "meetings_create__create",
+    "type": "checkbox",
+    "label": "יצירה",
+    "when": {
+      "featuresAny": [
+        "meetings__create_new_meeting"
+      ]
+    }
+  },
+  {
+    "id": "meetings_attendance__zoom_import",
+    "type": "checkbox",
+    "label": "ייבוא מזום",
+    "when": {
+      "featuresAny": [
+        "meetings__attendance"
+      ]
+    }
+  },
+  {
+    "id": "meetings_attendance__search_participant",
+    "type": "checkbox",
+    "label": "חיפוש משתתפת",
+    "when": {
+      "featuresAny": [
+        "meetings__attendance"
+      ]
+    }
+  },
+  {
+    "id": "meetings_attendance__participants_count",
+    "type": "checkbox",
+    "label": "מספר משתתפות",
+    "when": {
+      "featuresAny": [
+        "meetings__attendance"
+      ]
+    }
+  },
+  {
+    "id": "meetings_attendance__average_attendance",
+    "type": "checkbox",
+    "label": "נוכחות ממוצעת",
+    "when": {
+      "featuresAny": [
+        "meetings__attendance"
+      ]
+    }
+  },
+  {
+    "id": "meetings_attendance__meetings_held_count",
+    "type": "checkbox",
+    "label": "כמות מפגשים התקיימו",
+    "when": {
+      "featuresAny": [
+        "meetings__attendance"
+      ]
+    }
+  },
+  {
+    "id": "meetings_attendance__participant_name",
+    "type": "checkbox",
+    "label": "שם משתתפת",
+    "when": {
+      "featuresAny": [
+        "meetings__attendance"
+      ]
+    }
+  },
+  {
+    "id": "meetings_attendance__participant_status",
+    "type": "checkbox",
+    "label": "סטטוס משתתפת",
+    "when": {
+      "featuresAny": [
+        "meetings__attendance"
+      ]
+    }
+  },
+  {
+    "id": "meetings_attendance__participant_attendance_percent",
+    "type": "checkbox",
+    "label": "אחוז נוכחות משתתפת",
+    "when": {
+      "featuresAny": [
+        "meetings__attendance"
+      ]
+    }
+  },
+  {
+    "id": "meetings_attendance__intro_meeting",
+    "type": "checkbox",
+    "label": "מפגש הכרות למשתתפת",
+    "when": {
+      "featuresAny": [
+        "meetings__attendance"
+      ]
+    }
+  },
+  {
+    "id": "meetings_attendance__participant_test",
+    "type": "checkbox",
+    "label": "טסט למשתתפת",
+    "when": {
+      "featuresAny": [
+        "meetings__attendance"
+      ]
+    }
+  },
+  {
+    "id": "meetings_attendance__delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "meetings__attendance"
+      ]
+    }
+  },
+  {
+    "id": "meetings_venture_card__venture_name",
+    "type": "checkbox",
+    "label": "שם המיזם",
+    "when": {
+      "featuresAny": [
+        "meetings__venture_card"
+      ]
+    }
+  },
+  {
+    "id": "meetings_venture_card__instructor",
+    "type": "checkbox",
+    "label": "מנחה",
+    "when": {
+      "featuresAny": [
+        "meetings__venture_card"
+      ]
+    }
+  },
+  {
+    "id": "meetings_venture_card__meetings_count",
+    "type": "checkbox",
+    "label": "כמות מפגשים",
+    "when": {
+      "featuresAny": [
+        "meetings__venture_card"
+      ]
+    }
+  },
+  {
+    "id": "meetings_venture_card__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "meetings__venture_card"
+      ]
+    }
+  },
+  {
+    "id": "meetings_venture_card__participants_count",
+    "type": "checkbox",
+    "label": "מספר משתתפות",
+    "when": {
+      "featuresAny": [
+        "meetings__venture_card"
+      ]
+    }
+  },
+  {
+    "id": "meetings_venture_card__download_pdf",
+    "type": "checkbox",
+    "label": "הורדת PDF",
+    "when": {
+      "featuresAny": [
+        "meetings__venture_card"
+      ]
+    }
+  },
+  {
+    "id": "meetings_venture_card__download_word",
+    "type": "checkbox",
+    "label": "הורדת Word",
+    "when": {
+      "featuresAny": [
+        "meetings__venture_card"
+      ]
+    }
+  },
+  {
+    "id": "meetings_venture_card__meeting_status",
+    "type": "checkbox",
+    "label": "סטטוס המפגש",
+    "when": {
+      "featuresAny": [
+        "meetings__venture_card"
+      ]
+    }
+  },
+  {
+    "id": "meetings_display__meeting_name",
+    "type": "checkbox",
+    "label": "שם המפגש",
+    "when": {
+      "featuresAny": [
+        "meetings__meeting_display"
+      ]
+    }
+  },
+  {
+    "id": "meetings_display__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "meetings__meeting_display"
+      ]
+    }
+  },
+  {
+    "id": "meetings_display__time",
+    "type": "checkbox",
+    "label": "שעה",
+    "when": {
+      "featuresAny": [
+        "meetings__meeting_display"
+      ]
+    }
+  },
+  {
+    "id": "meetings_display__zoom_link",
+    "type": "checkbox",
+    "label": "קישור לזום",
+    "when": {
+      "featuresAny": [
+        "meetings__meeting_display"
+      ]
+    }
+  },
+  {
+    "id": "meetings_display__task_status",
+    "type": "checkbox",
+    "label": "סטטוס המשימה",
+    "when": {
+      "featuresAny": [
+        "meetings__meeting_display"
+      ]
+    }
+  },
+  {
+    "id": "meetings_display__delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "meetings__meeting_display"
+      ]
+    }
+  },
+  {
+    "id": "meetings_display__transcription",
+    "type": "checkbox",
+    "label": "תמלול מפגש",
+    "when": {
+      "featuresAny": [
+        "meetings__meeting_display"
+      ]
+    }
+  },
+  {
+    "id": "meetings_display__upload_recording",
+    "type": "checkbox",
+    "label": "העלאת הקלטה",
+    "when": {
+      "featuresAny": [
+        "meetings__meeting_display"
+      ]
+    }
+  },
+  {
+    "id": "meetings_display__ai_summary",
+    "type": "checkbox",
+    "label": "תקציר AI",
+    "when": {
+      "featuresAny": [
+        "meetings__meeting_display"
+      ]
+    }
+  },
+  {
+    "id": "meetings_add_existing__search_client",
+    "type": "checkbox",
+    "label": "חיפוש לקוחה קיימת",
+    "when": {
+      "featuresAny": [
+        "meetings__add_existing_participant"
+      ]
+    }
+  },
+  {
+    "id": "meetings_add_new__name",
+    "type": "checkbox",
+    "label": "שם",
+    "when": {
+      "featuresAny": [
+        "meetings__add_new_participant"
+      ]
+    }
+  },
+  {
+    "id": "meetings_add_new__phone",
+    "type": "checkbox",
+    "label": "טלפון",
+    "when": {
+      "featuresAny": [
+        "meetings__add_new_participant"
+      ]
+    }
+  },
+  {
+    "id": "meetings_add_new__email",
+    "type": "checkbox",
+    "label": "אימייל",
+    "when": {
+      "featuresAny": [
+        "meetings__add_new_participant"
+      ]
+    }
+  },
+  {
+    "id": "meetings_add_new__cancel",
+    "type": "checkbox",
+    "label": "ביטול",
+    "when": {
+      "featuresAny": [
+        "meetings__add_new_participant"
+      ]
+    }
+  },
+  {
+    "id": "meetings_add_new__save",
+    "type": "checkbox",
+    "label": "שמירה",
+    "when": {
+      "featuresAny": [
+        "meetings__add_new_participant"
+      ]
+    }
+  },
+  {
+    "id": "customers_new__name",
+    "type": "checkbox",
+    "label": "שם",
+    "when": {
+      "featuresAny": [
+        "customers__new_customer"
+      ]
+    }
+  },
+  {
+    "id": "customers_new__phone",
+    "type": "checkbox",
+    "label": "טלפון",
+    "when": {
+      "featuresAny": [
+        "customers__new_customer"
+      ]
+    }
+  },
+  {
+    "id": "customers_new__email",
+    "type": "checkbox",
+    "label": "אימייל",
+    "when": {
+      "featuresAny": [
+        "customers__new_customer"
+      ]
+    }
+  },
+  {
+    "id": "customers_new__notes",
+    "type": "checkbox",
+    "label": "הערות",
+    "when": {
+      "featuresAny": [
+        "customers__new_customer"
+      ]
+    }
+  },
+  {
+    "id": "customers_new__payment_link",
+    "type": "checkbox",
+    "label": "קישור לסליקה (אופציונלי)",
+    "when": {
+      "featuresAny": [
+        "customers__new_customer"
+      ]
+    }
+  },
+  {
+    "id": "customers_new__invoices_link",
+    "type": "checkbox",
+    "label": "קישור לחשבוניות (אופציונלי)",
+    "when": {
+      "featuresAny": [
+        "customers__new_customer"
+      ]
+    }
+  },
+  {
+    "id": "customers_new__bit_link",
+    "type": "checkbox",
+    "label": "קישור לביט (אופציונלי)",
+    "when": {
+      "featuresAny": [
+        "customers__new_customer"
+      ]
+    }
+  },
+  {
+    "id": "customers_ledger__search_customer",
+    "type": "checkbox",
+    "label": "חיפוש שלקוחה",
+    "when": {
+      "featuresAny": [
+        "customers__ledger"
+      ]
+    }
+  },
+  {
+    "id": "customers_ledger__customer_list",
+    "type": "checkbox",
+    "label": "רשימת הלקוחות",
+    "when": {
+      "featuresAny": [
+        "customers__ledger"
+      ]
+    }
+  },
+  {
+    "id": "customers_ledger__total_due",
+    "type": "checkbox",
+    "label": "סה\"כ לתשלום",
+    "when": {
+      "featuresAny": [
+        "customers__ledger"
+      ]
+    }
+  },
+  {
+    "id": "customers_ledger__is_paid",
+    "type": "checkbox",
+    "label": "האם שולם",
+    "when": {
+      "featuresAny": [
+        "customers__ledger"
+      ]
+    }
+  },
+  {
+    "id": "customers_financial__total_income",
+    "type": "checkbox",
+    "label": "סה\"כ הכנסות",
+    "when": {
+      "featuresAny": [
+        "customers__financial_overview"
+      ]
+    }
+  },
+  {
+    "id": "customers_financial__total_to_collect",
+    "type": "checkbox",
+    "label": "סה\"כ לגביה",
+    "when": {
+      "featuresAny": [
+        "customers__financial_overview"
+      ]
+    }
+  },
+  {
+    "id": "customers_financial__paid_by_customers",
+    "type": "checkbox",
+    "label": "שולם ע\"י לקוחות",
+    "when": {
+      "featuresAny": [
+        "customers__financial_overview"
+      ]
+    }
+  },
+  {
+    "id": "customers_financial__open_debt",
+    "type": "checkbox",
+    "label": "חוב פתוח",
+    "when": {
+      "featuresAny": [
+        "customers__financial_overview"
+      ]
+    }
+  },
+  {
+    "id": "customers_financial__customers_with_balance",
+    "type": "checkbox",
+    "label": "מספר לקוחות עם יתרה",
+    "when": {
+      "featuresAny": [
+        "customers__financial_overview"
+      ]
+    }
+  },
+  {
+    "id": "customers_financial__collection_percent",
+    "type": "checkbox",
+    "label": "אחוז גביה",
+    "when": {
+      "featuresAny": [
+        "customers__financial_overview"
+      ]
+    }
+  },
+  {
+    "id": "customers_financial__month_collection",
+    "type": "checkbox",
+    "label": "גביה החודש",
+    "when": {
+      "featuresAny": [
+        "customers__financial_overview"
+      ]
+    }
+  },
+  {
+    "id": "customers_financial__registered_customers",
+    "type": "checkbox",
+    "label": "לקוחות רשומים",
+    "when": {
+      "featuresAny": [
+        "customers__financial_overview"
+      ]
+    }
+  },
+  {
+    "id": "customers_income_by_venture__workshop_message_restart",
+    "type": "checkbox",
+    "label": "סדנה לדוגמה",
+    "when": {
+      "featuresAny": [
+        "customers__income_by_venture"
+      ]
+    }
+  },
+  {
+    "id": "customers_zoom_import__zoom_import",
+    "type": "checkbox",
+    "label": "ייבוא מזום",
+    "when": {
+      "featuresAny": [
+        "customers__zoom_import"
+      ]
+    }
+  },
+  {
+    "id": "permissions_add_user__name",
+    "type": "checkbox",
+    "label": "שם",
+    "when": {
+      "featuresAny": [
+        "permissions__add_user"
+      ]
+    }
+  },
+  {
+    "id": "permissions_add_user__email",
+    "type": "checkbox",
+    "label": "מייל",
+    "when": {
+      "featuresAny": [
+        "permissions__add_user"
+      ]
+    }
+  },
+  {
+    "id": "permissions_add_user__note",
+    "type": "checkbox",
+    "label": "הערה",
+    "when": {
+      "featuresAny": [
+        "permissions__add_user"
+      ]
+    }
+  },
+  {
+    "id": "permissions_users_list__username",
+    "type": "checkbox",
+    "label": "שם המשתמש",
+    "when": {
+      "featuresAny": [
+        "permissions__users_list"
+      ]
+    }
+  },
+  {
+    "id": "permissions_users_list__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "permissions__users_list"
+      ]
+    }
+  },
+  {
+    "id": "permissions_users_list__delete",
+    "type": "checkbox",
+    "label": "מחיקה",
+    "when": {
+      "featuresAny": [
+        "permissions__users_list"
+      ]
+    }
+  },
+  {
+    "id": "dashboard_inspiration__venture_name",
+    "type": "checkbox",
+    "label": "שם מיזם",
+    "when": {
+      "featuresAny": [
+        "dashboard__inspiration_posts"
+      ]
+    }
+  },
+  {
+    "id": "dashboard_inspiration__inspiration_post",
+    "type": "checkbox",
+    "label": "פוסט מהשראה",
+    "when": {
+      "featuresAny": [
+        "dashboard__inspiration_posts"
+      ]
+    }
+  },
+  {
+    "id": "dashboard_inspiration__post_file_link_display_name",
+    "type": "checkbox",
+    "label": "קישור לקובץ שם לתצוגה (אופציונלי)",
+    "when": {
+      "featuresAny": [
+        "dashboard__inspiration_posts"
+      ]
+    }
+  },
+  {
+    "id": "dashboard_inspiration__post_image",
+    "type": "checkbox",
+    "label": "תמונה לפוסט",
+    "when": {
+      "featuresAny": [
+        "dashboard__inspiration_posts"
+      ]
+    }
+  },
+  {
+    "id": "dashboard_inspiration__image_file_link_display_name",
+    "type": "checkbox",
+    "label": "קישור לקובץ שם לתצוגה (אופציונלי)",
+    "when": {
+      "featuresAny": [
+        "dashboard__inspiration_posts"
+      ]
+    }
+  },
+  {
+    "id": "sales_current_venture__search_customer",
+    "type": "checkbox",
+    "label": "חיפוש לקוחה",
+    "when": {
+      "featuresAny": [
+        "sales__current_venture"
+      ]
+    }
+  },
+  {
+    "id": "sales_current_venture__edit_customer",
+    "type": "checkbox",
+    "label": "עריכת לקוחה",
+    "when": {
+      "featuresAny": [
+        "sales__current_venture"
+      ]
+    }
+  },
+  {
+    "id": "sales_current_venture__view_customer",
+    "type": "checkbox",
+    "label": "תצוגת לקוחה",
+    "when": {
+      "featuresAny": [
+        "sales__current_venture"
+      ]
+    }
+  },
+  {
+    "id": "sales_all_customers__name",
+    "type": "checkbox",
+    "label": "שם",
+    "when": {
+      "featuresAny": [
+        "sales__all_customers"
+      ]
+    }
+  },
+  {
+    "id": "sales_all_customers__phone",
+    "type": "checkbox",
+    "label": "טלפון",
+    "when": {
+      "featuresAny": [
+        "sales__all_customers"
+      ]
+    }
+  },
+  {
+    "id": "sales_all_customers__email",
+    "type": "checkbox",
+    "label": "אימייל",
+    "when": {
+      "featuresAny": [
+        "sales__all_customers"
+      ]
+    }
+  },
+  {
+    "id": "sales_all_customers__payment_status",
+    "type": "checkbox",
+    "label": "סטטוס תשלום",
+    "when": {
+      "featuresAny": [
+        "sales__all_customers"
+      ]
+    }
+  },
+  {
+    "id": "sales_all_customers__date",
+    "type": "checkbox",
+    "label": "תאריך",
+    "when": {
+      "featuresAny": [
+        "sales__all_customers"
+      ]
+    }
+  },
+  {
+    "id": "sales_all_customers__search_customer",
+    "type": "checkbox",
+    "label": "חיפוש לקוחה",
+    "when": {
+      "featuresAny": [
+        "sales__all_customers"
+      ]
+    }
+  },
+  {
+    "id": "sales_all_customers__export_excel",
+    "type": "checkbox",
+    "label": "ייצוא לאקסל",
+    "when": {
+      "featuresAny": [
+        "sales__all_customers"
+      ]
+    }
+  },
+  {
+    "id": "sales_all_customers__paid",
+    "type": "checkbox",
+    "label": "שולם",
+    "when": {
+      "featuresAny": [
+        "sales__all_customers"
+      ]
+    }
+  },
+  {
+    "id": "sales_all_customers__partial",
+    "type": "checkbox",
+    "label": "חלקי",
+    "when": {
+      "featuresAny": [
+        "sales__all_customers"
+      ]
+    }
+  },
+  {
+    "id": "sales_all_customers__pending",
+    "type": "checkbox",
+    "label": "ממתין",
+    "when": {
+      "featuresAny": [
+        "sales__all_customers"
+      ]
+    }
+  },
+  {
+    "id": "sales_all_customers__overdue",
+    "type": "checkbox",
+    "label": "פיגור",
+    "when": {
+      "featuresAny": [
+        "sales__all_customers"
+      ]
+    }
+  }
+]

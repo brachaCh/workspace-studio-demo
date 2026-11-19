@@ -1,0 +1,88 @@
+[
+  {
+    "id": "business__general",
+    "type": "textarea",
+    "label": "כללי",
+    "size": "double",
+    "when": { "businessStep": true }
+  },
+  {
+    "id": "business__core_process",
+    "type": "textarea",
+    "label": "התהליך המרכזי בעסק",
+    "size": "double",
+    "when": { "businessStep": true }
+  },
+  {
+    "id": "business__required_product",
+    "type": "textarea",
+    "label": "המוצר הנדרש לבית העסק",
+    "when": { "businessStep": true }
+  },
+  {
+    "id": "business__challenges",
+    "type": "textarea",
+    "label": "האתגרים",
+    "when": { "businessStep": true }
+  },
+  {
+    "id": "business__goals",
+    "type": "textarea",
+    "label": "המטרות",
+    "when": { "businessStep": true }
+  },
+  {
+    "id": "business__used_by",
+    "type": "textarea",
+    "label": "לשימוש ע\"י",
+    "when": { "businessStep": true }
+  },
+  {
+    "id": "business__departments",
+    "type": "textarea",
+    "label": "מחלקות העסק",
+    "when": { "businessStep": true }
+  },
+  {
+    "id": "business__outputs",
+    "type": "textarea",
+    "label": "התוצרים",
+    "when": { "businessStep": true }
+  },
+  {
+    "id": "business__core_offering",
+    "type": "textarea",
+    "label": "המוצר/השירות/התהליך המרכזי בעסק",
+    "when": { "businessStep": true }
+  },
+  {
+    "id": "business__core_stages",
+    "type": "textarea",
+    "label": "השלבים שלו",
+    "when": { "businessStep": true }
+  },
+  {
+    "id": "business__dash_style",
+    "type": "textarea",
+    "label": "סוג 'דש' - צבעים - סגנון עיצוב",
+    "when": { "businessStep": true }
+  },
+  {
+    "id": "business__background_elements",
+    "type": "textarea",
+    "label": "האלמנטים ברקע",
+    "when": { "businessStep": true }
+  },
+  {
+    "id": "business__dash_functions",
+    "type": "textarea",
+    "label": "הפונקציות הנדרשות על ה'דש'",
+    "when": { "businessStep": true }
+  },
+  {
+    "id": "business__external_platforms",
+    "type": "textarea",
+    "label": "פלטפורמות חיצוניות לבדיקת התממשקות",
+    "when": { "businessStep": true }
+  }
+]

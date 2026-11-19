@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+:root {
+  /* Warm editorial palette */
+  --paper: #f4efe4;
+  --surface: #fffdf7;
+  --ink: #17140f;
+  --muted: #6f665a;
+  /* Accent: coral / vermilion */
+  --accent: #e0431f;
+  --accent-hover: #f2542f;
+  --accent-2: #0f766e;
+}
+
+@theme inline {
+  --color-background: var(--paper);
+  --color-foreground: var(--ink);
+  --font-sans: var(--font-assistant);
+  --font-display: var(--font-display);
+
+  --color-accent: #e0431f;
+  --color-accent-soft: #fbe6de;
+  --color-accent-2: #0f766e;
+
+  --animate-fade-rise: fade-rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @keyframes fade-rise {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-assistant), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* כותרות בפונט דיספליי בולט */
+h1,
+h2 {
+  font-family: var(--font-display), Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
+/* רקע עמוד — נייר חם עם נשיפות אלמוגי/טורקיז עדינות */
+.app-gradient-bg {
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(ellipse 60% 45% at 12% -6%, rgba(224, 67, 31, 0.1), transparent),
+    radial-gradient(ellipse 50% 40% at 96% 8%, rgba(15, 118, 110, 0.1), transparent),
+    radial-gradient(ellipse 55% 50% at 50% 108%, rgba(224, 67, 31, 0.06), transparent);
+  min-height: 100%;
+}
+
+/* כרטיס נייר — מט, לא זכוכית */
+.glass-panel {
+  background: var(--surface);
+  border: 1px solid rgba(23, 20, 15, 0.1);
+  box-shadow:
+    0 1px 2px rgba(23, 20, 15, 0.04),
+    0 12px 34px rgba(23, 20, 15, 0.07);
+}
+
+/* Header עם רקע נייר מרוכך */
+.glass-header {
+  background: rgba(244, 239, 228, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(23, 20, 15, 0.08);
+}
+
+/* מראה שדה חדש — קלט "מלא" רך */
+.field-input {
+  border-radius: 0.6rem;
+  border: 1px solid rgba(23, 20, 15, 0.12);
+  background: #faf6ec;
+  padding: 0.6rem 0.85rem;
+  font-size: 0.875rem;
+  color: var(--ink);
+  outline: none;
+  transition: all 0.18s ease;
+}
+.field-input::placeholder {
+  color: #a89e8d;
+}
+.field-input:focus {
+  border-color: var(--accent);
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(224, 67, 31, 0.12);
+}
+
+/* תווית שדה כניתנת-לעריכה — נראית ככותרת, לא כתיבה */
+.field-title {
+  width: 100%;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  margin-inline-start: -0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink);
+  outline: none;
+  transition: all 0.15s ease;
+}
+.field-title:hover {
+  background: rgba(23, 20, 15, 0.03);
+}
+.field-title:focus {
+  background: #ffffff;
+  border-color: rgba(224, 67, 31, 0.45);
+  box-shadow: 0 0 0 3px rgba(224, 67, 31, 0.1);
+}
+
+/* עטיפת שדה — עם פס מבטא בצד ההתחלה (ימין ב-RTL) */
+.field-card {
+  border-radius: 0.85rem;
+  border: 1px solid rgba(23, 20, 15, 0.08);
+  border-inline-start: 3px solid rgba(224, 67, 31, 0.55);
+  background: var(--surface);
+  padding: 1.15rem 1.25rem;
+  box-shadow: 0 1px 2px rgba(23, 20, 15, 0.04);
+  transition:
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+.field-card:focus-within {
+  border-inline-start-color: var(--accent);
+  box-shadow: 0 6px 20px rgba(23, 20, 15, 0.08);
+}
+
+/* eyebrow — תווית קטנה מנוקדת מעל כותרות */
+.eyebrow {
+  font-family: var(--font-display), serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* אנימציות לתצוגות מיני חיות על הכרטיסים */
+@keyframes demo-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+@keyframes demo-shimmer {
+  0% { transform: translateX(-120%) skewX(-12deg); }
+  100% { transform: translateX(220%) skewX(-12deg); }
+}
+@keyframes demo-pop {
+  0% { transform: scale(0.6); }
+  60% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+@keyframes mini-media-fill {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(0); }
+}
+.mini-media-bar { animation: mini-media-fill 1.5s ease-in-out infinite; }
+.demo-float { animation: demo-float 3s ease-in-out infinite; }
+.demo-shimmer { animation: demo-shimmer 2.6s ease-in-out infinite; }
+.demo-pop { animation: demo-pop 0.35s cubic-bezier(0.22, 1, 0.36, 1); }
+
+@media (prefers-reduced-motion: reduce) {
+  .demo-float,
+  .demo-shimmer,
+  .demo-pop,
+  .mini-media-bar {
+    animation: none;
+  }
+}
+
+/* כניסה מדורגת */
+.fade-rise {
+  animation: fade-rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.fade-rise-1 { animation-delay: 0.05s; }
+.fade-rise-2 { animation-delay: 0.12s; }
+.fade-rise-3 { animation-delay: 0.2s; }
+.fade-rise-4 { animation-delay: 0.28s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-rise,
+  .fade-rise-1,
+  .fade-rise-2,
+  .fade-rise-3,
+  .fade-rise-4 {
+    animation: none;
+  }
+}

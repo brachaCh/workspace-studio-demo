@@ -1,0 +1,980 @@
+[
+  {
+    "id": "dashboard__venture_opening_process",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "תהליך פתיחת מיזם"
+  },
+  {
+    "id": "dashboard__create_project",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "יצירת פרויקט חדש"
+  },
+  {
+    "id": "dashboard__open_gantt",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "פתיחת הגאנט"
+  },
+  {
+    "id": "dashboard__gantt_archive",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "ארכיון גאנט"
+  },
+  {
+    "id": "dashboard__attendance_clock_entry",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "שעון נוכחות - כניסה"
+  },
+  {
+    "id": "dashboard__create_documents",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "יצירת מסמכים"
+  },
+  {
+    "id": "dashboard__documents_archive",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "ארכיון מסמכים"
+  },
+  {
+    "id": "dashboard__upload_marketing_documents",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "העלאת מסמכי השיווק"
+  },
+  {
+    "id": "dashboard__record_venture",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "הקלטת מיזם"
+  },
+  {
+    "id": "dashboard__inspiration_posts",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "פוסטים של השראה"
+  },
+  {
+    "id": "dashboard__my_tasks",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "המשימות שלי"
+  },
+  {
+    "id": "dashboard__active_ventures_count",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "מספר מיזמים פעילים"
+  },
+  {
+    "id": "dashboard__participants_count",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "מספר משתתפות"
+  },
+  {
+    "id": "dashboard__total_revenue",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "סך הכנסות"
+  },
+  {
+    "id": "dashboard__google_calendar",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "הצגת גוגל קלנדר"
+  },
+  {
+    "id": "dashboard__upcoming_tasks",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "משימות לימים הקרובים"
+  },
+  {
+    "id": "dashboard__questions_archive",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "ארכיון שאלות"
+  },
+  {
+    "id": "dashboard__contact_us",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "דברו איתנו"
+  },
+  {
+    "id": "dashboard__logout",
+    "tabId": "dashboard",
+    "group": "דשבורד",
+    "label": "התנתקות"
+  },
+  {
+    "id": "attendance_clock__clock",
+    "tabId": "attendance_clock",
+    "group": "שעון נוכחות",
+    "label": "שעון נוכחות"
+  },
+  {
+    "id": "attendance_clock__my_monthly_reports",
+    "tabId": "attendance_clock",
+    "group": "שעון נוכחות",
+    "label": "הדוחות החודשיים שלי"
+  },
+  {
+    "id": "attendance_clock__vacation_request",
+    "tabId": "attendance_clock",
+    "group": "שעון נוכחות",
+    "label": "בקשת חופש"
+  },
+  {
+    "id": "attendance_clock__today_team_attendance",
+    "tabId": "attendance_clock",
+    "group": "שעון נוכחות",
+    "label": "נוכחות היום — כל הצוות"
+  },
+  {
+    "id": "attendance_clock__add_vacation_request",
+    "tabId": "attendance_clock",
+    "group": "שעון נוכחות",
+    "label": "הוספת בקשת חופש"
+  },
+  {
+    "id": "projects__add_new_project",
+    "tabId": "projects",
+    "group": "הפרויקטים",
+    "label": "הוספת פרויקט חדש"
+  },
+  {
+    "id": "projects__display_projects",
+    "tabId": "projects",
+    "group": "הפרויקטים",
+    "label": "הצגת הפרויקטים"
+  },
+  {
+    "id": "projects__record_venture",
+    "tabId": "projects",
+    "group": "הפרויקטים",
+    "label": "הקלטת מיזם"
+  },
+  {
+    "id": "marketing_materials_gantt__flow_chart",
+    "tabId": "marketing_materials_gantt",
+    "group": "חומרי השיווק",
+    "label": "תרשים זרימה (גאנט כללי)"
+  },
+  {
+    "id": "marketing_materials_gantt__project_specific_gantt",
+    "tabId": "marketing_materials_gantt",
+    "group": "חומרי השיווק",
+    "label": "גאנט לפרויקט ספציפי"
+  },
+  {
+    "id": "marketing_materials_gantt__gantt_archive",
+    "tabId": "marketing_materials_gantt",
+    "group": "חומרי השיווק",
+    "label": "ארכיון גאנטים"
+  },
+  {
+    "id": "marketing_materials_gantt__upload_marketing_documents",
+    "tabId": "marketing_materials_gantt",
+    "group": "חומרי השיווק",
+    "label": "העלאת מסמכי השיווק"
+  },
+  {
+    "id": "marketing_materials_gantt__documents_archive",
+    "tabId": "marketing_materials_gantt",
+    "group": "חומרי השיווק",
+    "label": "ארכיון מסמכים"
+  },
+  {
+    "id": "media__create_campaign",
+    "tabId": "media",
+    "group": "המדיה",
+    "label": "יצירת קמפיין"
+  },
+  {
+    "id": "media__campaigns_archive",
+    "tabId": "media",
+    "group": "המדיה",
+    "label": "ארכיון קמפיינים"
+  },
+  {
+    "id": "assessments__create_team_meeting",
+    "tabId": "assessments",
+    "group": "הערכות",
+    "label": "יצירת ישיבת צוות"
+  },
+  {
+    "id": "assessments__project_preparation",
+    "tabId": "assessments",
+    "group": "הערכות",
+    "label": "הערכות לפרויקט"
+  },
+  {
+    "id": "assessments__create_open_day",
+    "tabId": "assessments",
+    "group": "הערכות",
+    "label": "יצירת יום פתוח"
+  },
+  {
+    "id": "assessments__create_interview_meeting",
+    "tabId": "assessments",
+    "group": "הערכות",
+    "label": "יצירת פגישה לראיון"
+  },
+  {
+    "id": "course_materials__upload_course_material",
+    "tabId": "course_materials",
+    "group": "חומרי הקורס",
+    "label": "העלאת חומר הקורס"
+  },
+  {
+    "id": "course_materials__course_materials_archive",
+    "tabId": "course_materials",
+    "group": "חומרי הקורס",
+    "label": "ארכיון חומרי הקורס"
+  },
+  {
+    "id": "sales__current_venture",
+    "tabId": "sales",
+    "group": "מכירות",
+    "label": "מיזם נוכחי"
+  },
+  {
+    "id": "sales__archive",
+    "tabId": "sales",
+    "group": "מכירות",
+    "label": "ארכיון"
+  },
+  {
+    "id": "sales__all_customers",
+    "tabId": "sales",
+    "group": "מכירות",
+    "label": "כל הלקוחות"
+  },
+  {
+    "id": "posts__create_new_post",
+    "tabId": "posts",
+    "group": "הפוסטים",
+    "label": "יצירת פוסט חדש"
+  },
+  {
+    "id": "posts__posts_archive",
+    "tabId": "posts",
+    "group": "הפוסטים",
+    "label": "ארכיון פוסטים"
+  },
+  {
+    "id": "create_documents__kosher_certificate",
+    "tabId": "create_documents",
+    "group": "יצירת מסמכים",
+    "label": "תעודת כשרות"
+  },
+  {
+    "id": "create_documents__inspection_reports",
+    "tabId": "create_documents",
+    "group": "יצירת מסמכים",
+    "label": "דוחות בדיקה"
+  },
+  {
+    "id": "create_documents__operating_instructions",
+    "tabId": "create_documents",
+    "group": "יצירת מסמכים",
+    "label": "הוראות הפעלה"
+  },
+  {
+    "id": "create_documents__documents_archive",
+    "tabId": "create_documents",
+    "group": "יצירת מסמכים",
+    "label": "ארכיון מסמכים"
+  },
+  {
+    "id": "institutions_cluster__date",
+    "tabId": "institutions_cluster",
+    "group": "דוגמה א",
+    "label": "תאריך"
+  },
+  {
+    "id": "institutions_cluster__attendance_clock",
+    "tabId": "institutions_cluster",
+    "group": "דוגמה א",
+    "label": "שעון נוכחות"
+  },
+  {
+    "id": "institutions_cluster__client_venture",
+    "tabId": "institutions_cluster",
+    "group": "דוגמה א",
+    "label": "לקוח/מיזם"
+  },
+  {
+    "id": "institutions_cluster__task",
+    "tabId": "institutions_cluster",
+    "group": "דוגמה א",
+    "label": "משימה"
+  },
+  {
+    "id": "institutions_cluster__google_calendar_peek",
+    "tabId": "institutions_cluster",
+    "group": "דוגמה א",
+    "label": "הצצה ליומן גוגל"
+  },
+  {
+    "id": "institutions_cluster__create_client",
+    "tabId": "institutions_cluster",
+    "group": "דוגמה א",
+    "label": "יצירת לקוח"
+  },
+  {
+    "id": "institutions_cluster__ledger",
+    "tabId": "institutions_cluster",
+    "group": "דוגמה א",
+    "label": "כרטסת"
+  },
+  {
+    "id": "institutions_cluster__gantt_link",
+    "tabId": "institutions_cluster",
+    "group": "דוגמה א",
+    "label": "לינק למערכת חיצונית"
+  },
+  {
+    "id": "institutions_cluster__faq",
+    "tabId": "institutions_cluster",
+    "group": "דוגמה א",
+    "label": "שו\"ת"
+  },
+  {
+    "id": "suppliers_cluster__date",
+    "tabId": "suppliers_cluster",
+    "group": "דוגמה ב",
+    "label": "תאריך"
+  },
+  {
+    "id": "suppliers_cluster__attendance_clock",
+    "tabId": "suppliers_cluster",
+    "group": "דוגמה ב",
+    "label": "שעון נוכחות"
+  },
+  {
+    "id": "suppliers_cluster__client_venture",
+    "tabId": "suppliers_cluster",
+    "group": "דוגמה ב",
+    "label": "לקוח/מיזם"
+  },
+  {
+    "id": "suppliers_cluster__task",
+    "tabId": "suppliers_cluster",
+    "group": "דוגמה ב",
+    "label": "משימה"
+  },
+  {
+    "id": "suppliers_cluster__create_client",
+    "tabId": "suppliers_cluster",
+    "group": "דוגמה ב",
+    "label": "יצירת לקוח"
+  },
+  {
+    "id": "suppliers_cluster__archive",
+    "tabId": "suppliers_cluster",
+    "group": "דוגמה ב",
+    "label": "ארכיון"
+  },
+  {
+    "id": "suppliers_cluster__gantt_link",
+    "tabId": "suppliers_cluster",
+    "group": "דוגמה ב",
+    "label": "לינק למערכת חיצונית"
+  },
+  {
+    "id": "suppliers_cluster__airtable",
+    "tabId": "suppliers_cluster",
+    "group": "דוגמה ב",
+    "label": "Airtable"
+  },
+  {
+    "id": "suppliers_cluster__google_calendar_peek",
+    "tabId": "suppliers_cluster",
+    "group": "דוגמה ב",
+    "label": "הצצה ליומן גוגל"
+  },
+  {
+    "id": "suppliers_cluster__faq",
+    "tabId": "suppliers_cluster",
+    "group": "דוגמה ב",
+    "label": "שו\"ת"
+  },
+  {
+    "id": "self_entrepreneurship__date",
+    "tabId": "self_entrepreneurship",
+    "group": "דוגמה ג",
+    "label": "תאריך"
+  },
+  {
+    "id": "self_entrepreneurship__google_calendar_peek",
+    "tabId": "self_entrepreneurship",
+    "group": "דוגמה ג",
+    "label": "הצצה ליומן גוגל"
+  },
+  {
+    "id": "self_entrepreneurship__create_venture",
+    "tabId": "self_entrepreneurship",
+    "group": "דוגמה ג",
+    "label": "יצירת מיזם"
+  },
+  {
+    "id": "self_entrepreneurship__ai_agents",
+    "tabId": "self_entrepreneurship",
+    "group": "דוגמה ג",
+    "label": "סוכני AI"
+  },
+  {
+    "id": "self_entrepreneurship__open_ventures_list",
+    "tabId": "self_entrepreneurship",
+    "group": "דוגמה ג",
+    "label": "רשימת המיזמים הפתוחים"
+  },
+  {
+    "id": "self_entrepreneurship__ventures_archive",
+    "tabId": "self_entrepreneurship",
+    "group": "דוגמה ג",
+    "label": "ארכיון מיזמים"
+  },
+  {
+    "id": "self_entrepreneurship__finance",
+    "tabId": "self_entrepreneurship",
+    "group": "דוגמה ג",
+    "label": "פיננסי - הכנסות והוצאות (דוגמה ג)"
+  },
+  {
+    "id": "self_entrepreneurship__attendance_clock",
+    "tabId": "self_entrepreneurship",
+    "group": "דוגמה ג",
+    "label": "שעון נוכחות"
+  },
+  {
+    "id": "self_entrepreneurship__venture",
+    "tabId": "self_entrepreneurship",
+    "group": "דוגמה ג",
+    "label": "מיזם"
+  },
+  {
+    "id": "self_entrepreneurship__task",
+    "tabId": "self_entrepreneurship",
+    "group": "דוגמה ג",
+    "label": "משימה"
+  },
+  {
+    "id": "freelance_ventures__date",
+    "tabId": "freelance_ventures",
+    "group": "דוגמה ד",
+    "label": "תאריך"
+  },
+  {
+    "id": "freelance_ventures__google_calendar_peek",
+    "tabId": "freelance_ventures",
+    "group": "דוגמה ד",
+    "label": "הצצה ליומן גוגל"
+  },
+  {
+    "id": "freelance_ventures__create_venture",
+    "tabId": "freelance_ventures",
+    "group": "דוגמה ד",
+    "label": "יצירת מיזם"
+  },
+  {
+    "id": "freelance_ventures__ai_agents",
+    "tabId": "freelance_ventures",
+    "group": "דוגמה ד",
+    "label": "סוכני AI"
+  },
+  {
+    "id": "freelance_ventures__open_ventures_list",
+    "tabId": "freelance_ventures",
+    "group": "דוגמה ד",
+    "label": "רשימת המיזמים הפתוחים"
+  },
+  {
+    "id": "freelance_ventures__ventures_archive",
+    "tabId": "freelance_ventures",
+    "group": "דוגמה ד",
+    "label": "ארכיון מיזמים"
+  },
+  {
+    "id": "freelance_ventures__finance",
+    "tabId": "freelance_ventures",
+    "group": "דוגמה ד",
+    "label": "פיננסי - הכנסות והוצאות (דוגמה ד)"
+  },
+  {
+    "id": "freelance_ventures__attendance_clock",
+    "tabId": "freelance_ventures",
+    "group": "דוגמה ד",
+    "label": "שעון נוכחות"
+  },
+  {
+    "id": "freelance_ventures__venture",
+    "tabId": "freelance_ventures",
+    "group": "דוגמה ד",
+    "label": "מיזם"
+  },
+  {
+    "id": "freelance_ventures__task",
+    "tabId": "freelance_ventures",
+    "group": "דוגמה ד",
+    "label": "משימה"
+  },
+  {
+    "id": "tasks__google_calendar",
+    "tabId": "tasks",
+    "group": "משימות",
+    "label": "הצגת גוגל קלנדר"
+  },
+  {
+    "id": "tasks__kanban_board",
+    "tabId": "tasks",
+    "group": "משימות",
+    "label": "לוח קנבן"
+  },
+  {
+    "id": "tasks__create_new_task",
+    "tabId": "tasks",
+    "group": "משימות",
+    "label": "יצירת משימה חדשה"
+  },
+  {
+    "id": "finance__attendance_clock",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "שעון נוכחות"
+  },
+  {
+    "id": "finance__client_venture",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "לקוח/מיזם"
+  },
+  {
+    "id": "finance__task",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "משימה"
+  },
+  {
+    "id": "finance__add_report",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "הוספת דיווח"
+  },
+  {
+    "id": "finance__archive",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "ארכיון"
+  },
+  {
+    "id": "finance__gantt_link",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "לינק למערכת חיצונית"
+  },
+  {
+    "id": "finance__airtable",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "Airtable"
+  },
+  {
+    "id": "finance__weekly_tasks",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "משימות השבוע"
+  },
+  {
+    "id": "finance__total_income",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "סה\"כ הכנסות (דוח + ממתינות באפליקציה)"
+  },
+  {
+    "id": "finance__client_income_pending",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "הכנסות מלקוחות (ממתינות לתשלום)"
+  },
+  {
+    "id": "finance__total_expenses",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "סה\"כ הוצאות (דוח + באפליקציה)"
+  },
+  {
+    "id": "finance__estimated_net_profit",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "רווח נקי משוער"
+  },
+  {
+    "id": "finance__tithes",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "מעשרות (10% מרווח חודשי)"
+  },
+  {
+    "id": "finance__cumulative_income_2026",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "הכנסה מצטברת לשנת מס 2026"
+  },
+  {
+    "id": "finance__institutions_monthly_income",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "דוגמה א — הכנסות חודשיות"
+  },
+  {
+    "id": "finance__suppliers_monthly_income",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "דוגמה ב — הכנסות חודשיות"
+  },
+  {
+    "id": "finance__self_entrepreneurship_monthly_income",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "דוגמה ג — הכנסות חודשיות"
+  },
+  {
+    "id": "finance__freelance_monthly_income",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "דוגמה ד — הכנסות חודשיות"
+  },
+  {
+    "id": "finance__invoices_folder",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "תיקיית חשבוניות"
+  },
+  {
+    "id": "finance__add_partner_report",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "הוספת דיווח שוטף"
+  },
+  {
+    "id": "finance__dashboard",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "דשבורד"
+  },
+  {
+    "id": "finance__project_calculator",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "מחשבון הפרויקט"
+  },
+  {
+    "id": "finance__salary_calculator",
+    "tabId": "finance",
+    "group": "פיננסים",
+    "label": "מחשבון משכורות"
+  },
+  {
+    "id": "chat__chat",
+    "tabId": "chat",
+    "group": "צ׳אט",
+    "label": "צ׳אט"
+  },
+  {
+    "id": "quick_links__links",
+    "tabId": "quick_links",
+    "group": "קישורים מהירים",
+    "label": "קישורים"
+  },
+  {
+    "id": "quick_links__authorized_users",
+    "tabId": "quick_links",
+    "group": "קישורים מהירים",
+    "label": "מורשים"
+  },
+  {
+    "id": "links__org_email",
+    "tabId": "links",
+    "group": "קישורים",
+    "label": "דוא\"ל ארגוני"
+  },
+  {
+    "id": "links__whatsapp_web",
+    "tabId": "links",
+    "group": "קישורים",
+    "label": "וואטסאפ ווב"
+  },
+  {
+    "id": "links__fiscall",
+    "tabId": "links",
+    "group": "קישורים",
+    "label": "פייסקול"
+  },
+  {
+    "id": "links__large_file_send",
+    "tabId": "links",
+    "group": "קישורים",
+    "label": "שליחת קבצים גדולים"
+  },
+  {
+    "id": "links__google_calendar",
+    "tabId": "links",
+    "group": "קישורים",
+    "label": "יומן גוגל"
+  },
+  {
+    "id": "links__summit",
+    "tabId": "links",
+    "group": "קישורים",
+    "label": "סאמיט"
+  },
+  {
+    "id": "links__invoices_accounting",
+    "tabId": "links",
+    "group": "קישורים",
+    "label": "חשבוניות והנה\"ח"
+  },
+  {
+    "id": "links__shared_drive",
+    "tabId": "links",
+    "group": "קישורים",
+    "label": "Drive משותף"
+  },
+  {
+    "id": "links__gantt",
+    "tabId": "links",
+    "group": "קישורים",
+    "label": "מערכת חיצונית"
+  },
+  {
+    "id": "links__bank",
+    "tabId": "links",
+    "group": "קישורים",
+    "label": "בנק"
+  },
+  {
+    "id": "faq__create_question",
+    "tabId": "faq",
+    "group": "שו\"ת",
+    "label": "יצירת שאלה חדשה"
+  },
+  {
+    "id": "faq__questions_archive",
+    "tabId": "faq",
+    "group": "שו\"ת",
+    "label": "ארכיון שאלות"
+  },
+  {
+    "id": "faq__open_questions",
+    "tabId": "faq",
+    "group": "שו\"ת",
+    "label": "שאלות פתוחות"
+  },
+  {
+    "id": "settings__profile",
+    "tabId": "settings",
+    "group": "הגדרות",
+    "label": "פרופיל"
+  },
+  {
+    "id": "settings__departments",
+    "tabId": "settings",
+    "group": "הגדרות",
+    "label": "מחלקות"
+  },
+  {
+    "id": "settings__system",
+    "tabId": "settings",
+    "group": "הגדרות",
+    "label": "מערכת"
+  },
+  {
+    "id": "settings__version",
+    "tabId": "settings",
+    "group": "הגדרות",
+    "label": "גרסה"
+  },
+  {
+    "id": "settings__field_management",
+    "tabId": "settings",
+    "group": "הגדרות",
+    "label": "פתיחת ניהול שדות"
+  },
+  {
+    "id": "content_creation__marketing_plan",
+    "tabId": "content_creation",
+    "group": "יצירת התוכן",
+    "label": "תכנית שיווק"
+  },
+  {
+    "id": "content_creation__marketing_plan_archive",
+    "tabId": "content_creation",
+    "group": "יצירת התוכן",
+    "label": "ארכיון תכנית שיווק"
+  },
+  {
+    "id": "content_creation__ad",
+    "tabId": "content_creation",
+    "group": "יצירת התוכן",
+    "label": "מודעה"
+  },
+  {
+    "id": "content_creation__post",
+    "tabId": "content_creation",
+    "group": "יצירת התוכן",
+    "label": "פוסט"
+  },
+  {
+    "id": "content_creation__landing_page",
+    "tabId": "content_creation",
+    "group": "יצירת התוכן",
+    "label": "דף נחיתה"
+  },
+  {
+    "id": "content_creation__join_message",
+    "tabId": "content_creation",
+    "group": "יצירת התוכן",
+    "label": "הודעת הצטרפות"
+  },
+  {
+    "id": "content_creation__syllabus",
+    "tabId": "content_creation",
+    "group": "יצירת התוכן",
+    "label": "סילבוס"
+  },
+  {
+    "id": "content_creation__whatsapp_link",
+    "tabId": "content_creation",
+    "group": "יצירת התוכן",
+    "label": "לינק לוואטסאפ"
+  },
+  {
+    "id": "content_creation__lesson_link",
+    "tabId": "content_creation",
+    "group": "יצירת התוכן",
+    "label": "לינק לשיעור"
+  },
+  {
+    "id": "content_creation__presentation",
+    "tabId": "content_creation",
+    "group": "יצירת התוכן",
+    "label": "מצגת"
+  },
+  {
+    "id": "content_creation__flyer",
+    "tabId": "content_creation",
+    "group": "יצירת התוכן",
+    "label": "פלייר"
+  },
+  {
+    "id": "content_creation__recording",
+    "tabId": "content_creation",
+    "group": "יצירת התוכן",
+    "label": "הקלטה"
+  },
+  {
+    "id": "marketing__marketing_plan",
+    "tabId": "marketing",
+    "group": "שיווק",
+    "label": "תכנית שיווק"
+  },
+  {
+    "id": "marketing__marketing_plan_archive",
+    "tabId": "marketing",
+    "group": "שיווק",
+    "label": "ארכיון תכנית שיווק"
+  },
+  {
+    "id": "meetings__create_new_meeting",
+    "tabId": "meetings",
+    "group": "מפגשים",
+    "label": "יצירת מפגש חדש"
+  },
+  {
+    "id": "meetings__attendance",
+    "tabId": "meetings",
+    "group": "מפגשים",
+    "label": "נוכחות"
+  },
+  {
+    "id": "meetings__venture_card",
+    "tabId": "meetings",
+    "group": "מפגשים",
+    "label": "כרטיס מיזם"
+  },
+  {
+    "id": "meetings__meeting_display",
+    "tabId": "meetings",
+    "group": "מפגשים",
+    "label": "תצוגת מפגש"
+  },
+  {
+    "id": "meetings__add_existing_participant",
+    "tabId": "meetings",
+    "group": "מפגשים",
+    "label": "הוספת משתתפת קיימת"
+  },
+  {
+    "id": "meetings__add_new_participant",
+    "tabId": "meetings",
+    "group": "מפגשים",
+    "label": "הוספת משתתפת חדשה"
+  },
+  {
+    "id": "customers__new_customer",
+    "tabId": "customers",
+    "group": "לקוחות",
+    "label": "לקוחה חדשה"
+  },
+  {
+    "id": "customers__ledger",
+    "tabId": "customers",
+    "group": "לקוחות",
+    "label": "כרטסת"
+  },
+  {
+    "id": "customers__financial_overview",
+    "tabId": "customers",
+    "group": "לקוחות",
+    "label": "סקירה כספית"
+  },
+  {
+    "id": "customers__income_by_venture",
+    "tabId": "customers",
+    "group": "לקוחות",
+    "label": "הכנסות לפי מיזם"
+  },
+  {
+    "id": "customers__zoom_import",
+    "tabId": "customers",
+    "group": "לקוחות",
+    "label": "ייבוא מזום"
+  },
+  {
+    "id": "permissions__add_user",
+    "tabId": "permissions",
+    "group": "מורשות",
+    "label": "הוספת משתמשת"
+  },
+  {
+    "id": "permissions__users_list",
+    "tabId": "permissions",
+    "group": "מורשות",
+    "label": "רשימת משתמשות"
+  },
+  {
+    "id": "notifications__task_notifications",
+    "tabId": "notifications",
+    "group": "התראות",
+    "label": "התראות משימות"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "dashboard",
+    "label": "דשבורד",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "attendance_clock",
+    "label": "שעון נוכחות",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "tasks",
+    "label": "משימות",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "projects",
+    "label": "הפרויקטים",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "marketing_materials_gantt",
+    "label": "חומרי השיווק",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "media",
+    "label": "המדיה",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "assessments",
+    "label": "הערכות",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "course_materials",
+    "label": "חומרי הקורס",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "sales",
+    "label": "מכירות",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "posts",
+    "label": "הפוסטים",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "create_documents",
+    "label": "יצירת מסמכים",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "finance",
+    "label": "פיננסים",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "integrations",
+    "label": "ממשקים",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "chat",
+    "label": "צ׳אט",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "quick_links",
+    "label": "קישורים מהירים",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "notifications",
+    "label": "התראות",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "links",
+    "label": "קישורים",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "faq",
+    "label": "שו\"ת",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "settings",
+    "label": "הגדרות",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "content_creation",
+    "label": "יצירת התוכן",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "marketing",
+    "label": "שיווק",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "meetings",
+    "label": "מפגשים",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "customers",
+    "label": "לקוחות",
+    "description": "פרטים יתווספו בהמשך"
+  },
+  {
+    "id": "permissions",
+    "label": "מורשות",
+    "description": "פרטים יתווספו בהמשך"
+  }
+]

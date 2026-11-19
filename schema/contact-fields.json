@@ -1,0 +1,32 @@
+[
+  {
+    "id": "contact__organization_name",
+    "type": "text",
+    "label": "שם הארגון",
+    "required": true,
+    "when": { "contactStep": true }
+  },
+  {
+    "id": "contact__client_name",
+    "type": "text",
+    "label": "שם לקוח",
+    "required": true,
+    "when": { "contactStep": true }
+  },
+  {
+    "id": "contact__email",
+    "type": "email",
+    "label": "מייל",
+    "placeholder": "name@example.com",
+    "required": true,
+    "when": { "contactStep": true }
+  },
+  {
+    "id": "contact__phone",
+    "type": "tel",
+    "label": "טלפון",
+    "placeholder": "05x-xxxxxxx",
+    "required": false,
+    "when": { "contactStep": true }
+  }
+]
